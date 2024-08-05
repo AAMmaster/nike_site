@@ -1,0 +1,51 @@
+section.top_midle {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section.top_midle>div.nike_icon {
+    width: 190px;
+    height: 60px;
+    position: relative;
+
+}
+
+section.top_midle>div.nike_icon>a {
+
+    width: 74px;
+    height: 50px;
+    position: absolute;
+    left: 43px;
+    top: 5px;
+}
+
+section.top_midle>div.nike_icon>a>img {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+}
+
+section.top_midle>div.center_menu {
+    position: absolute;
+    
+    width: 733px;
+    height: 60px;
+    left: calc(50% - 366.5px);
+    text-align: center;
+    
+
+}
+section.top_midle>div.center_menu>nav>ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 30px;
+    justify-content: center;
+}
+section.top_midle>div.center_menu>nav>ul>li{
+    display: inline-block;
+}
+section.top_midle>div.center_menu>nav>ul>li>a{
+
+}
