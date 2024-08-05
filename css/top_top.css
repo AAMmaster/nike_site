@@ -1,0 +1,89 @@
+section.top_top {
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5;
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    padding: 0 48px;
+
+}
+
+section.top_top>div.logos {
+    box-sizing: border-box;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    gap: 13px;
+}
+
+section.top_top>div.logos>div.jordan {
+    padding-top: 8px;
+    width: 24px;
+    height: 36px;
+}
+
+section.top_top>div.logos>div.jordan>a {
+    width: 24px;
+    height: 24px;
+}
+
+section.top_top>div.logos>div.jordan>a>img {
+    width: 19px;
+    height: 19px;
+
+}
+
+section.top_top>div.logos>div.convers {
+    width: 24px;
+    height: 36px;
+    padding-top: 5px;
+}
+
+section.top_top>div.logos>div.convers>a {
+    width: 24px;
+    height: 24px;
+}
+
+section.top_top>div.logos>div.convers>a>img {
+    width: 35px;
+    height: 24px;
+}
+
+section.top_top>div.details {
+    text-align: right;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+section.top_top>div.details>nav>ul {
+    width: 100%;
+    height: 36px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    line-height: 40px;
+    font-size: 12px;
+
+}
+
+section.top_top>div.details>nav>ul>li {
+    display: inline-block;
+    
+
+    font-weight: 600;
+
+
+
+}
+
+section.top_top>div.details>nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+}
