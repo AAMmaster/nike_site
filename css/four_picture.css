@@ -4,10 +4,146 @@ section.four_picture{
     height:910.04px;
 }
 
-section.four_picture>div.picture{
-    width: 100%;
+section.four_picture>div.picture_1{
+    width:50%;
     height: 50%;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+section.four_picture>div.picture_1>a{
+    width: 100%;
+    height: 100%;
+}
+section.four_picture>div.picture_1>a>img{
+width: 100%;
+    height: calc(910.04px /2);
+    position: absolute;
+}
+section.four_picture>div.picture_1>div.shop{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    top: 375.5px;
+    left: 47.5px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_1>div.shop>a{
+    position: absolute;
+    left: 15.5px;
+    top: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_2{
+    width:50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section.four_picture>div.picture_2>a{
+    width: 100%;
+    height: 100%;
+}
+section.four_picture>div.picture_2>a>img{
+width: 100%;
+    height: calc(910.04px /2);
+    position: absolute;
+}
+section.four_picture>div.picture_2>div.shop{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    top: 375.5px;
+    left: 47.5px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_2>div.shop>a{
+    position: absolute;
+    left: 15.5px;
+    top: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_3{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+section.four_picture>div.picture_3>a{
+    width: 100%;
+    height: 100%;
+}
+section.four_picture>div.picture_3>a>img{
+width: 100%;
+    height: calc(910.04px /2);
+    position: absolute;
+}
+section.four_picture>div.picture_3>div.shop{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    top: 375.5px;
+    left: 47.5px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_3>div.shop>a{
+    position: absolute;
+    left: 15.5px;
+    top: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_4{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section.four_picture>div.picture_4>a{
+    width: 100%;
+    height: 100%;
+}
+section.four_picture>div.picture_4>a>img{
+width: 100%;
+    height: calc(910.04px /2);
+    position: absolute;
+}
+section.four_picture>div.picture_4>div.shop{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    top: 375.5px;
+    left: 47.5px;
+    width: 70px;
+    height: 35px;
+}
+
+section.four_picture>div.picture_4>div.shop>a{
+    position: absolute;
+    left: 15.5px;
+    top: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
 }
