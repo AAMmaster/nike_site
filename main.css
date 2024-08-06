@@ -5,6 +5,8 @@
 @import url("./css/top_midle.css");
 @import url("./css/golfman.css");
 @import url("./css/master_course.css");
+
+@import url("./css/four_picture.css");
 *{
     padding: 0;
     margin: 0;

@@ -1,0 +1,13 @@
+section.four_picture{
+    position: relative;
+    width: 100%;
+    height:910.04px;
+}
+
+section.four_picture>div.picture{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
