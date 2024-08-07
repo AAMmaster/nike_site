@@ -33,11 +33,17 @@ section.four_picture>div.picture_1>div.shop{
 
 section.four_picture>div.picture_1>div.shop>a{
     position: absolute;
-    left: 15.5px;
-    top: 10px;
+    left: 0px;
+    font-weight: 550;
+    top: 0px;
+    padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
     height: 35px;
+    transition: all ease 0ms;
+}
+section.four_picture>div.picture_1>div.shop>a:hover{
+    background-color: #CACACB;
 }
 
 section.four_picture>div.picture_2{
@@ -69,11 +75,17 @@ section.four_picture>div.picture_2>div.shop{
 
 section.four_picture>div.picture_2>div.shop>a{
     position: absolute;
-    left: 15.5px;
-    top: 10px;
+    left: 0px;
+    font-weight: 550;
+    top: 0px;
+    padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
     height: 35px;
+    transition: all ease 0ms;
+}
+section.four_picture>div.picture_2>div.shop>a:hover{
+    background-color: #CACACB;
 }
 
 section.four_picture>div.picture_3{
@@ -105,11 +117,17 @@ section.four_picture>div.picture_3>div.shop{
 
 section.four_picture>div.picture_3>div.shop>a{
     position: absolute;
-    left: 15.5px;
-    top: 10px;
+    left: 0px;
+    font-weight: 550;
+    top: 0px;
+    padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
     height: 35px;
+    transition: all ease 0ms;
+}
+section.four_picture>div.picture_3>div.shop>a:hover{
+    background-color: #CACACB;
 }
 
 section.four_picture>div.picture_4{
@@ -141,9 +159,15 @@ section.four_picture>div.picture_4>div.shop{
 
 section.four_picture>div.picture_4>div.shop>a{
     position: absolute;
-    left: 15.5px;
-    top: 10px;
+    left: 0px;
+    font-weight: 550;
+    top: 0px;
+    padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
     height: 35px;
+    transition: all ease 0ms;
+}
+section.four_picture>div.picture_4>div.shop>a:hover{
+    background-color: #CACACB;
 }
