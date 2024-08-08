@@ -1,17 +1,17 @@
-section.three_jordan{
+section.three_jordan {
     width: 100%;
     height: 110vh;
+}
 
-    background-color: aqua;
-}
-section.three_jordan>div.jordan{
-    width: 100%;
-}
-section.three_jordan>div.jordan>img{
+section.three_jordan>div.jordan {
     width: 100%;
 }
 
-section.three_jordan>div.strat_new_this_week{
+section.three_jordan>div.jordan>img {
+    width: 100%;
+}
+
+section.three_jordan>div.strat_new_this_week {
     width: 100%;
     text-align: center;
     margin-top: 60px;
@@ -19,6 +19,49 @@ section.three_jordan>div.strat_new_this_week{
 }
 
 section.three_jordan>div.strat_new_this_week>div.start_new{
-    
-    
+    width: 372px;
+    height: 46px;
+    position: relative;
+    left: calc(50% - 187px);
+}
+
+section.three_jordan>div.strat_new_this_week>div.start_new>img{
+    width: 100%;
+    height: 100%;
+}
+
+section.three_jordan>div.strat_new_this_week>div.shop_new_arival {
+    width: 180px;
+    height: 36px;
+    box-sizing: unset;
+    padding: 6px 16px;
+    margin-top: 32px;
+    border-radius: 50px;
+    position: absolute;
+    left: calc(50% - 105.75px);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+section.three_jordan>div.strat_new_this_week>div.shop_new_arival>a{
+    width: 180px;
+    height: 36px;
+    box-sizing: unset;
+    padding: 6px 16px;
+    left: 0;
+    position: absolute;
+    border-radius: 50px;
+    color: white;
+    line-height: 36px;
+    background-color: black;
+}
+
+section.three_jordan>div.strat_new_this_week>div.shop_new_arival>a:hover{
+    background-color: #9e9d9d;
 }
