@@ -1,0 +1,24 @@
+section.three_jordan{
+    width: 100%;
+    height: 110vh;
+
+    background-color: aqua;
+}
+section.three_jordan>div.jordan{
+    width: 100%;
+}
+section.three_jordan>div.jordan>img{
+    width: 100%;
+}
+
+section.three_jordan>div.strat_new_this_week{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+section.three_jordan>div.strat_new_this_week>div.start_new{
+    
+    
+}
