@@ -9,6 +9,8 @@
   "author": "Ali",
   "license": "MIT",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "axios": "^1.7.3",
+    "live-server": "^1.2.2",
+    "swiper": "^11.1.9"
   }
 }
