@@ -1,0 +1,99 @@
+section.sliderin {
+    position: relative;
+    width: 100%;
+    height: 405.188px;
+    overflow: hidden;
+    top: 87px;
+
+}
+
+section.sliderin {
+    margin: 0;
+    padding: 0;
+}
+
+section.sliderin>img {
+    left: 48px;
+    position: relative;
+}
+
+.swiper {
+    width: 115%;
+    height: 388px;
+    left: -185px;
+}
+
+.swiper-slide {
+
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    top: 0px;
+    bottom: 0px;
+    flex-flow: column;
+    border: 0;
+}
+
+.swiper-slide img {
+    width: 300px;
+    position: relative;
+    top: 40px;
+    bottom: 0px;
+}
+div.swiper-button-next{
+    color: black;
+    font-size: 13px;
+    font-weight:bolder;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: 100px;
+    z-index: 2;
+
+}
+
+div.swiper-button-next::after {
+    color: black;
+    font-size: 13px;
+    font-weight:bolder;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 26px;
+    right: 100px;
+    z-index: 2;
+
+}
+
+
+div.swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    color: black;
+    left: 200px;
+    z-index: 2;
+}
+
+
+div.swiper-button-prev::after {
+    
+    font-size: 13px;
+    font-weight:bolder;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    color: black;
+    left: 200px;
+    z-index: 2;
+}

@@ -10,6 +10,8 @@
 @import url("./css/video.css");
 @import url("./css/win_on_air.css");
 @import url("./css/three_jordan.css");
+@import url("./css/categori.css");
+@import url("./css/swipre.css");
 
 *{
     padding: 0;
@@ -20,5 +22,3 @@
     border: 0;
     transition: all ease 300ms;
 }
-
-

@@ -245,15 +245,31 @@
 
 
     <!-- start shop by classics -->
+    <section class="sliderin">
 
+        <img src="./files/shop_by_classics.png" width="334px" height="39px" alt="">
 
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./files/air jordan 1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./files/dunk.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./files/air force 1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./files/blazer.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./files/vomero.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./files/air max.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
 
     <!-- end shop by classics -->
 
 
     <!-- start footer first part -->
 
-
+    section.categori
 
     <!-- end footer first part -->
 
@@ -276,9 +292,19 @@
 
 
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4.5,
+          spaceBetween: 0,
+          loop: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
     <script src="./jquery-3.7.1.min.js"></script>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
-    <script src="./main.js"></script>
 </body>
 
 </html>
