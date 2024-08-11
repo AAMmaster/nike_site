@@ -51,7 +51,7 @@ div.swiper-button-next{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    right: 100px;
+    right: 110px;
     z-index: 2;
 
 }
@@ -66,6 +66,11 @@ div.swiper-button-next::after {
     height: 26px;
     right: 100px;
     z-index: 2;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -75,7 +80,7 @@ div.swiper-button-prev{
     height: 40px;
     right: 50px;
     color: black;
-    left: 200px;
+    left: 280px;
     z-index: 2;
 }
 

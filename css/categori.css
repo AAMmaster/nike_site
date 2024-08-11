@@ -1,0 +1,113 @@
+section.categori {
+    position: relative;
+    margin-top: 185px;
+    width: 886px;
+    left: calc(50% - 443px);
+    display: flex;
+    height: 190px;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 62px;
+    transition: all linear 400ms;
+
+}
+section.categori:hover{
+    width: 886px;
+    height: 574px;
+
+}
+
+section.categori>div.featured {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: bold;
+    width: 175px;
+    text-align: left;
+}
+
+section.categori>div.featured>div>a>p {
+    transition: all linear 200ms;
+    color: #707072;
+}
+section.categori>div.featured>div>a>p:hover{
+    color: black;
+}
+
+section.categori>div.featured>h1 {
+    font-weight: 525;
+    font-size: 20px;
+
+}
+
+section.categori>div.shoes {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: bold;
+    width: 175px;
+    text-align: left;
+}
+
+section.categori>div.shoes>div>a>p {
+    transition: all linear 200ms;
+    color: #707072;
+}
+section.categori>div.shoes>div>a>p:hover{
+    color: black;
+}
+
+section.categori>div.shoes>h1 {
+    font-weight: 525;
+    font-size: 20px;
+}
+
+section.categori>div.clothing {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: bold;
+    width: 175px;
+    text-align: left;
+}
+
+section.categori>div.clothing>div>a>p {
+    transition: all linear 200ms;
+    color: #707072;
+}
+section.categori>div.clothing>div>a>p:hover{
+    color: black;
+}
+
+section.categori>div.clothing>h1 {
+    font-weight: 525;
+    font-size: 20px;
+}
+
+section.categori>div.kids {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: bold;
+    width: 175px;
+    text-align: left;
+}
+
+section.categori>div.kids>div>a>p {
+    transition: all linear 200ms;
+    color: #707072;
+}
+
+section.categori>div.kids>div>a>p:hover{
+    color: black;
+}
+
+section.categori>div.kids>h1 {
+    font-weight: 525;
+    font-size: 20px;
+}

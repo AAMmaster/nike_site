@@ -1,0 +1,9 @@
+div.line{
+    width: 93%;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 96px;
+    margin-bottom: 63px;
+    background-color: #e5e5e5;
+}
