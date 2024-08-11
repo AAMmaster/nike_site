@@ -49,8 +49,13 @@ section.top_midle>div.center_menu>nav>ul {
 
 section.top_midle>div.center_menu>nav>ul>li {
     display: inline-block;
+    
+    
 }
-
+section.top_midle>div.center_menu>nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
 section.top_midle>div.right_search {
     width: 168px;
     height: 36px;

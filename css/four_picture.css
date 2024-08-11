@@ -33,6 +33,8 @@ section.four_picture>div.picture_1>div.shop{
 
 section.four_picture>div.picture_1>div.shop>a{
     position: absolute;
+    text-decoration: none;
+    color: black;
     left: 0px;
     font-weight: 550;
     top: 0px;
@@ -41,6 +43,8 @@ section.four_picture>div.picture_1>div.shop>a{
     width: 70px;
     height: 35px;
     transition: all ease 0ms;
+    
+    
 }
 section.four_picture>div.picture_1>div.shop>a:hover{
     background-color: #CACACB;
@@ -75,6 +79,8 @@ section.four_picture>div.picture_2>div.shop{
 
 section.four_picture>div.picture_2>div.shop>a{
     position: absolute;
+    text-decoration: none;
+    color: black;
     left: 0px;
     font-weight: 550;
     top: 0px;
@@ -117,6 +123,8 @@ section.four_picture>div.picture_3>div.shop{
 
 section.four_picture>div.picture_3>div.shop>a{
     position: absolute;
+    text-decoration: none;
+    color: black;
     left: 0px;
     font-weight: 550;
     top: 0px;
@@ -159,6 +167,8 @@ section.four_picture>div.picture_4>div.shop{
 
 section.four_picture>div.picture_4>div.shop>a{
     position: absolute;
+    text-decoration: none;
+    color: black;
     left: 0px;
     font-weight: 550;
     top: 0px;

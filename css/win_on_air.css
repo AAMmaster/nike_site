@@ -25,6 +25,9 @@ section.win_on_air>div.exp_air>a {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
 section.win_on_air>div.shop_air {
@@ -41,7 +44,9 @@ section.win_on_air>div.shop_air {
 
 section.win_on_air>div.shop_air>a {
     width: 100%;
-
+    text-decoration: none;
+    
+    color: white;
     border-radius: 20px;
     height: 100%;
     display: flex;
