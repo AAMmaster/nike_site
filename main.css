@@ -1,6 +1,3 @@
-
-
-
 @import url("./css/top_top.css");
 @import url("./css/top_midle.css");
 @import url("./css/golfman.css");
@@ -13,13 +10,15 @@
 @import url("./css/categori.css");
 @import url("./css/swipre.css");
 @import url("./css/line.css");
+@import url("./css/footer_two.css");
 
 *{
     padding: 0;
     margin: 0;
-    list-style-type: none;
     font-family: Arial;
     box-sizing: border-box;
     border: 0;
     transition: all ease 300ms;
+    color: black;
+    text-decoration: none;
 }
