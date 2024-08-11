@@ -1,6 +1,8 @@
 section.second_part {
     width: 93%;
+    height: 337px;
     margin: 0 auto;
+    margin-bottom: 80px;
     display: flex;
     flex-flow: row nowrap;
     gap: 12px;
@@ -21,6 +23,7 @@ section.second_part>div.title_part>a {
     display: block;
     margin-bottom: 30px;
     color: black;
+    
 
 }
 

@@ -22,10 +22,14 @@ section.categori>div.featured {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
     font-weight: bold;
     width: 175px;
     text-align: left;
+}
+
+section.categori>div.featured>div{
+    height: 30px;
 }
 
 section.categori>div.featured>div>a{
@@ -51,10 +55,14 @@ section.categori>div.shoes {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
     font-weight: bold;
     width: 175px;
     text-align: left;
+}
+
+section.categori>div.shoes>div{
+    height: 30px;
 }
 
 section.categori>div.shoes>div>a{
@@ -78,10 +86,13 @@ section.categori>div.clothing {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
     font-weight: bold;
     width: 175px;
     text-align: left;
+}
+section.categori>div.clothing>div{
+    height: 30px;
 }
 
 section.categori>div.clothing>div>a{
@@ -105,10 +116,14 @@ section.categori>div.kids {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
     font-weight: bold;
     width: 175px;
     text-align: left;
+}
+
+section.categori>div.kids>div{
+    height: 30px;
 }
 
 section.categori>div.kids>div>a{
