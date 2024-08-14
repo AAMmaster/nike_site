@@ -60,6 +60,7 @@ section.top_top>div.details {
     justify-content: end;
     padding-right: 10px;
     box-sizing: border-box;
+    z-index: 10;
 }
 
 section.top_top>div.details>nav>ul {
@@ -124,12 +125,13 @@ div.dropdown {
     box-sizing: border-box;
     background-color: none;
     height: 100%;
+    z-index: 10;
     background-color: #F5F5F5;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display:none;
+    display:inline-block;
     opacity: 0;
     padding: 0 10px;
     position: absolute;
@@ -142,7 +144,7 @@ div.dropdown {
     width: 242px;
     text-align: left;
 
-    z-index: -1;
+    z-index: 8;
 }
 
 .dropdown-content>h1 {
@@ -174,7 +176,6 @@ div.dropdown {
     top: 36px;
     display:block;
     opacity: 1;
-    z-index: 4;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
