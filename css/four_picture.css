@@ -38,6 +38,7 @@ section.four_picture>div.picture_1>div.shop>a{
     left: 0px;
     font-weight: 550;
     top: 0px;
+    line-height: 20px;
     padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
@@ -84,6 +85,7 @@ section.four_picture>div.picture_2>div.shop>a{
     left: 0px;
     font-weight: 550;
     top: 0px;
+    line-height: 20px;
     padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
@@ -128,6 +130,7 @@ section.four_picture>div.picture_3>div.shop>a{
     left: 0px;
     font-weight: 550;
     top: 0px;
+    line-height: 20px;
     padding:9px 15px ;
     border-radius: 20px;
     width: 70px;
@@ -172,6 +175,7 @@ section.four_picture>div.picture_4>div.shop>a{
     left: 0px;
     font-weight: 550;
     top: 0px;
+    line-height: 20px;
     padding:9px 15px ;
     border-radius: 20px;
     width: 70px;

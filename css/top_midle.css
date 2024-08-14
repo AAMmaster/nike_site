@@ -3,12 +3,11 @@ section.top_midle {
     height: 60px;
     display: flex;
     flex-flow: row nowrap;
-    z-index: 6;
+    z-index: 3;
     top: 0px;
 
 
     position: sticky;
-    z-index: 1000;
     transition: top 0.2s;
     
 
