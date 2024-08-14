@@ -3,7 +3,17 @@ section.top_midle {
     height: 60px;
     display: flex;
     flex-flow: row nowrap;
-    position: relative;
+    z-index: 6;
+    top: 0px;
+
+
+    position: sticky;
+    z-index: 1000;
+    transition: top 0.3s;
+
+
+
+    background-color: white;
 }
 
 section.top_midle>div.nike_icon {
