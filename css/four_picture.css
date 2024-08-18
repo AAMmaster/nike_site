@@ -16,20 +16,22 @@ section.four_picture>div.picture_1>div.details_picture {
     position: absolute;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 250px;
+    top: 290px;
 
     left: 47.5px;
 }
 
 section.four_picture>div.picture_1>div.details_picture>p {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    height: 17px;
     font-weight: 550;
 }
 
-section.four_picture>div.picture_1>div.details_picture>h1 {
+section.four_picture>div.picture_1>div.details_picture>h3 {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-
+    font-size: 23px;
+    font-weight: 530;
 }
 
 
@@ -86,21 +88,23 @@ section.four_picture>div.picture_2 {
 section.four_picture>div.picture_2>div.details_picture {
     position: absolute;
     color: white;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 250px;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif; 
+    top: 290px;
 
     left: 47.5px;
 }
 
 section.four_picture>div.picture_2>div.details_picture>p {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    height: 17px;
     font-weight: 550;
 }
 
-section.four_picture>div.picture_2>div.details_picture>h1 {
+section.four_picture>div.picture_2>div.details_picture>h3 {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-
+    font-size: 23px;
+    font-weight: 530;
 }
 
 
@@ -156,20 +160,22 @@ section.four_picture>div.picture_3>div.details_picture {
     position: absolute;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 250px;
+    top: 290px;
 
     left: 47.5px;
 }
 
 section.four_picture>div.picture_3>div.details_picture>p {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    height: 17px;
     font-weight: 550;
 }
 
-section.four_picture>div.picture_3>div.details_picture>h1 {
+section.four_picture>div.picture_3>div.details_picture>h3 {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-
+    font-size: 23px;
+    font-weight: 530;
 }
 
 
@@ -225,20 +231,22 @@ section.four_picture>div.picture_4>div.details_picture {
     position: absolute;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 250px;
+    top: 290px;
 
     left: 47.5px;
 }
 
 section.four_picture>div.picture_4>div.details_picture>p {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    height: 17px;
     font-weight: 550;
 }
 
-section.four_picture>div.picture_4>div.details_picture>h1 {
+section.four_picture>div.picture_4>div.details_picture>h3 {
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-
+    font-size: 23px;
+    font-weight: 530;
 }
 
 

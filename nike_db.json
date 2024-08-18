@@ -1,15 +1,29 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "pictures": "./files/nike-just-do-it.png"  },
-      { "id": "2", "title": "another title", "pictures": "./files/nike-just-do-it.jpg"},
-      { "id": "3", "title": "another title", "pictures": "./files/nike-just-do-it.jpg(1)"},
-      { "id": "4", "title": "another title", "pictures": "./files/nike-just-do-it.jpg(2)"}
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "banner":[],
+  "four_picture": [
+    {
+      "id": "1",
+      "title": "Team USA",
+      "content": "United in Victory",
+      "picture": "./files/nike-just-do-it (3).jpg"
+    },
+    {
+      "id": "2",
+      "title": "Nike Pegasus Plus",
+      "content": "Energise Your Run",
+      "picture": "./files/nike-just-do-it.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Air Max Dn",
+      "content": "Refine The Game With AJ Brown",
+      "picture": "./files/nike-just-do-it_(1).jpg"
+    },
+    {
+      "id": "4",
+      "title": "Nike Universa Leggings",
+      "content": "For Your Every Move",
+      "picture": "./files/nike-just-do-it (2).jpg"
     }
-  }
+  ]
+}
