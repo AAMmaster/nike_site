@@ -12,13 +12,6 @@
 @import url("./css/line.css");
 @import url("./css/footer_two.css");
 @import url("./css/footer_final.css");
+@import url("./css/setting.css");
 
-*{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    font-family: Arial;
-    box-sizing: border-box;
-    border: 0;
-    transition: all ease 300ms;
-}
+

@@ -1,27 +1,50 @@
-section.four_picture{
+section.four_picture {
     position: relative;
     width: 100%;
-    height:910.04px;
+    height: 910.04px;
 }
 
-section.four_picture>div.picture_1{
-    width:50%;
+section.four_picture>div.picture_1 {
+    width: 50%;
     height: 50%;
     position: absolute;
     left: 0;
     top: 0;
 }
 
-section.four_picture>div.picture_1>a{
+section.four_picture>div.picture_1>div.details_picture {
+    position: absolute;
+    color: white;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    top: 250px;
+
+    left: 47.5px;
+}
+
+section.four_picture>div.picture_1>div.details_picture>p {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+section.four_picture>div.picture_1>div.details_picture>h1 {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+
+}
+
+
+section.four_picture>div.picture_1>a {
     width: 100%;
     height: 100%;
 }
-section.four_picture>div.picture_1>a>img{
-width: 100%;
+
+section.four_picture>div.picture_1>a>img {
+    width: 100%;
     height: calc(910.04px /2);
     position: absolute;
 }
-section.four_picture>div.picture_1>div.shop{
+
+section.four_picture>div.picture_1>div.shop {
     position: absolute;
     background-color: white;
     border-radius: 20px;
@@ -31,7 +54,7 @@ section.four_picture>div.picture_1>div.shop{
     height: 35px;
 }
 
-section.four_picture>div.picture_1>div.shop>a{
+section.four_picture>div.picture_1>div.shop>a {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -39,36 +62,60 @@ section.four_picture>div.picture_1>div.shop>a{
     font-weight: 550;
     top: 0px;
     line-height: 20px;
-    padding:9px 15px ;
+    padding: 9px 15px;
     border-radius: 20px;
     width: 70px;
     height: 35px;
     transition: all ease 0ms;
-    
-    
+
+
 }
-section.four_picture>div.picture_1>div.shop>a:hover{
+
+section.four_picture>div.picture_1>div.shop>a:hover {
     background-color: #CACACB;
 }
 
-section.four_picture>div.picture_2{
-    width:50%;
+section.four_picture>div.picture_2 {
+    width: 50%;
     height: 50%;
     position: absolute;
     right: 0;
     top: 0;
 }
 
-section.four_picture>div.picture_2>a{
+section.four_picture>div.picture_2>div.details_picture {
+    position: absolute;
+    color: white;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    top: 250px;
+
+    left: 47.5px;
+}
+
+section.four_picture>div.picture_2>div.details_picture>p {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+section.four_picture>div.picture_2>div.details_picture>h1 {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+
+}
+
+
+section.four_picture>div.picture_2>a {
     width: 100%;
     height: 100%;
 }
-section.four_picture>div.picture_2>a>img{
-width: 100%;
+
+section.four_picture>div.picture_2>a>img {
+    width: 100%;
     height: calc(910.04px /2);
     position: absolute;
 }
-section.four_picture>div.picture_2>div.shop{
+
+section.four_picture>div.picture_2>div.shop {
     position: absolute;
     background-color: white;
     border-radius: 20px;
@@ -78,7 +125,7 @@ section.four_picture>div.picture_2>div.shop{
     height: 35px;
 }
 
-section.four_picture>div.picture_2>div.shop>a{
+section.four_picture>div.picture_2>div.shop>a {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -86,17 +133,18 @@ section.four_picture>div.picture_2>div.shop>a{
     font-weight: 550;
     top: 0px;
     line-height: 20px;
-    padding:9px 15px ;
+    padding: 9px 15px;
     border-radius: 20px;
     width: 70px;
     height: 35px;
     transition: all ease 0ms;
 }
-section.four_picture>div.picture_2>div.shop>a:hover{
+
+section.four_picture>div.picture_2>div.shop>a:hover {
     background-color: #CACACB;
 }
 
-section.four_picture>div.picture_3{
+section.four_picture>div.picture_3 {
     width: 50%;
     height: 50%;
     position: absolute;
@@ -104,16 +152,39 @@ section.four_picture>div.picture_3{
     bottom: 0;
 }
 
-section.four_picture>div.picture_3>a{
+section.four_picture>div.picture_3>div.details_picture {
+    position: absolute;
+    color: white;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    top: 250px;
+
+    left: 47.5px;
+}
+
+section.four_picture>div.picture_3>div.details_picture>p {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+section.four_picture>div.picture_3>div.details_picture>h1 {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+
+}
+
+
+section.four_picture>div.picture_3>a {
     width: 100%;
     height: 100%;
 }
-section.four_picture>div.picture_3>a>img{
-width: 100%;
+
+section.four_picture>div.picture_3>a>img {
+    width: 100%;
     height: calc(910.04px /2);
     position: absolute;
 }
-section.four_picture>div.picture_3>div.shop{
+
+section.four_picture>div.picture_3>div.shop {
     position: absolute;
     background-color: white;
     border-radius: 20px;
@@ -123,7 +194,7 @@ section.four_picture>div.picture_3>div.shop{
     height: 35px;
 }
 
-section.four_picture>div.picture_3>div.shop>a{
+section.four_picture>div.picture_3>div.shop>a {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -131,17 +202,18 @@ section.four_picture>div.picture_3>div.shop>a{
     font-weight: 550;
     top: 0px;
     line-height: 20px;
-    padding:9px 15px ;
+    padding: 9px 15px;
     border-radius: 20px;
     width: 70px;
     height: 35px;
     transition: all ease 0ms;
 }
-section.four_picture>div.picture_3>div.shop>a:hover{
+
+section.four_picture>div.picture_3>div.shop>a:hover {
     background-color: #CACACB;
 }
 
-section.four_picture>div.picture_4{
+section.four_picture>div.picture_4 {
     width: 50%;
     height: 50%;
     position: absolute;
@@ -149,16 +221,39 @@ section.four_picture>div.picture_4{
     bottom: 0;
 }
 
-section.four_picture>div.picture_4>a{
+section.four_picture>div.picture_4>div.details_picture {
+    position: absolute;
+    color: white;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    top: 250px;
+
+    left: 47.5px;
+}
+
+section.four_picture>div.picture_4>div.details_picture>p {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+section.four_picture>div.picture_4>div.details_picture>h1 {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+
+}
+
+
+section.four_picture>div.picture_4>a {
     width: 100%;
     height: 100%;
 }
-section.four_picture>div.picture_4>a>img{
-width: 100%;
+
+section.four_picture>div.picture_4>a>img {
+    width: 100%;
     height: calc(910.04px /2);
     position: absolute;
 }
-section.four_picture>div.picture_4>div.shop{
+
+section.four_picture>div.picture_4>div.shop {
     position: absolute;
     background-color: white;
     border-radius: 20px;
@@ -168,7 +263,7 @@ section.four_picture>div.picture_4>div.shop{
     height: 35px;
 }
 
-section.four_picture>div.picture_4>div.shop>a{
+section.four_picture>div.picture_4>div.shop>a {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -176,12 +271,13 @@ section.four_picture>div.picture_4>div.shop>a{
     font-weight: 550;
     top: 0px;
     line-height: 20px;
-    padding:9px 15px ;
+    padding: 9px 15px;
     border-radius: 20px;
     width: 70px;
     height: 35px;
     transition: all ease 0ms;
 }
-section.four_picture>div.picture_4>div.shop>a:hover{
+
+section.four_picture>div.picture_4>div.shop>a:hover {
     background-color: #CACACB;
 }

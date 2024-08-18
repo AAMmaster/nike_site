@@ -1,0 +1,15 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title", "pictures": "./files/nike-just-do-it.png"  },
+      { "id": "2", "title": "another title", "pictures": "./files/nike-just-do-it.jpg"},
+      { "id": "3", "title": "another title", "pictures": "./files/nike-just-do-it.jpg(1)"},
+      { "id": "4", "title": "another title", "pictures": "./files/nike-just-do-it.jpg(2)"}
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

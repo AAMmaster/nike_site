@@ -14,3 +14,25 @@ window.addEventListener('scroll', function () {
     }
     lastScrollTop = scrollTop;
 });
+
+// const products = document.getElementById("products")
+// let html = ``
+// axios.get('http://localhost:3000/banner')
+// .then((res)=>{
+//     console.log(res.data)
+//     let response = res.data
+//     html += response.map((elem)=>{
+//         return `
+//         <div class="product">
+//             <img src="${elem['poster']}" alt="">
+//             <div class="detail">
+//                 <p>
+//                 ${elem['description']}
+//                 </p>
+//                 <button type="button">shop</button>
+//             </div>
+//         </div>
+//         `
+//     })
+//     products.innerHTML = html
+// })
