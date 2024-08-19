@@ -2,18 +2,17 @@ section.four_picture {
     position: relative;
     width: 100%;
     height: 910.04px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section.four_picture>div.picture_1 {
     width: 50%;
     height: 50%;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 section.four_picture>div.picture_1>div.details_picture {
-    position: absolute;
+    position: relative;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     top: 290px;
@@ -42,15 +41,15 @@ section.four_picture>div.picture_1>a {
 
 section.four_picture>div.picture_1>a>img {
     width: 100%;
-    height: calc(910.04px /2);
-    position: absolute;
+    height: 100%;
+    object-fit: cover;
 }
 
 section.four_picture>div.picture_1>div.shop {
-    position: absolute;
+    position: relative;
     background-color: white;
     border-radius: 20px;
-    top: 375.5px;
+    top: 300px;
     left: 47.5px;
     width: 70px;
     height: 35px;
@@ -80,13 +79,10 @@ section.four_picture>div.picture_1>div.shop>a:hover {
 section.four_picture>div.picture_2 {
     width: 50%;
     height: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 section.four_picture>div.picture_2>div.details_picture {
-    position: absolute;
+    position: relative;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif; 
     top: 290px;
@@ -115,15 +111,15 @@ section.four_picture>div.picture_2>a {
 
 section.four_picture>div.picture_2>a>img {
     width: 100%;
-    height: calc(910.04px /2);
-    position: absolute;
+    height: 100%;
+    object-fit: cover;
 }
 
 section.four_picture>div.picture_2>div.shop {
-    position: absolute;
+    position: relative;
     background-color: white;
     border-radius: 20px;
-    top: 375.5px;
+    top: 300px;
     left: 47.5px;
     width: 70px;
     height: 35px;
@@ -151,13 +147,10 @@ section.four_picture>div.picture_2>div.shop>a:hover {
 section.four_picture>div.picture_3 {
     width: 50%;
     height: 50%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 section.four_picture>div.picture_3>div.details_picture {
-    position: absolute;
+    position: relative;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     top: 290px;
@@ -186,15 +179,15 @@ section.four_picture>div.picture_3>a {
 
 section.four_picture>div.picture_3>a>img {
     width: 100%;
-    height: calc(910.04px /2);
-    position: absolute;
+    height: 100%;
+    object-fit: cover;
 }
 
 section.four_picture>div.picture_3>div.shop {
-    position: absolute;
+    position: relative;
     background-color: white;
     border-radius: 20px;
-    top: 375.5px;
+    top: 300px;
     left: 47.5px;
     width: 70px;
     height: 35px;
@@ -222,13 +215,10 @@ section.four_picture>div.picture_3>div.shop>a:hover {
 section.four_picture>div.picture_4 {
     width: 50%;
     height: 50%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 
 section.four_picture>div.picture_4>div.details_picture {
-    position: absolute;
+    position: relative;
     color: white;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     top: 290px;
@@ -257,15 +247,15 @@ section.four_picture>div.picture_4>a {
 
 section.four_picture>div.picture_4>a>img {
     width: 100%;
-    height: calc(910.04px /2);
-    position: absolute;
+    height: 100%;
+    object-fit: cover;
 }
 
 section.four_picture>div.picture_4>div.shop {
-    position: absolute;
+    position: relative;
     background-color: white;
     border-radius: 20px;
-    top: 375.5px;
+    top: 300px;
     left: 47.5px;
     width: 70px;
     height: 35px;
