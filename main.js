@@ -23,9 +23,9 @@ axios.get('http://localhost:3000/four_picture')
         let response = res.data
         html += response.map((elem) => {
             return `
-        <div class="picture_${elem.id}">
+        <div class="picture_${elem.id}" id="picure_${elem.id}_dad">
 
-            <a href=""><img src="${elem[`picture`]}" alt=""></a>
+            <a href=""><img src="${elem[`picture`]}" id="picure_${elem.id}" alt=""></a>
 
             <div class="details_picture">
                 <p>${elem['title']}</p>
@@ -82,4 +82,46 @@ axios.get('http://localhost:3000/banner')
         banner.innerHTML = 'Error loading data. Please try again later.';
     });
 
+let picure1 = document.getElementById("picure_1")
+let picure2 = document.getElementById("picure_2")
+let picure3 = document.getElementById("picure_3")
+let picure4 = document.getElementById("picure_4")
+let picure_1_dad = document.getElementById("picure_1_dad")
+let picure_2_dad = document.getElementById("picure_2_dad")
+let picure_3_dad = document.getElementById("picure_3_dad")
+let picure_4_dad = document.getElementById("picure_4_dad")
 
+
+
+let ali = setInterval(() => {
+    picure1 = document.getElementById("picure_1")
+    picure2 = document.getElementById("picure_2")
+    picure3 = document.getElementById("picure_3")
+    picure4 = document.getElementById("picure_4")
+    picure_1_dad = document.getElementById("picure_1_dad")
+    picure_2_dad = document.getElementById("picure_2_dad")
+    picure_3_dad = document.getElementById("picure_3_dad")
+    picure_4_dad = document.getElementById("picure_4_dad")
+
+    if (window.innerWidth <= 599) {
+        // picure1.style.minWidth = ("599px")
+        // picure2.style.minWidth = ("599px")
+        // picure3.style.minWidth = ("599px")
+        // picure4.style.minWidth = ("599px")
+        picure1.style.display = ("block")
+        picure2.style.display = ("block")
+        picure3.style.display = ("block")
+        picure4.style.display = ("block")
+        clearInterval(ali)
+    } else {
+        console.log("ali kore");
+
+    }
+
+}, 50);
+// let picure = document.getElementById("picure")
+// if (window.innerWidth <= 599) {
+//     picure.style.minWidth = ("599px")
+// } else {
+//     console.log("ali kore");
+// }
