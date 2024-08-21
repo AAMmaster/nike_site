@@ -9,8 +9,11 @@ section.four_picture {
 
 section.four_picture>div.picture_1 {
     width: 50%;
-    height: calc(910.04px / 2);
+    transition: none;
+    height: 50vh;
     position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
     
 }
 
@@ -40,11 +43,14 @@ section.four_picture>div.picture_1>div.details_picture>h3 {
 section.four_picture>div.picture_1>a {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 section.four_picture>div.picture_1>a>img {
     width: 100%;
     height: 100%;
+    object-fit: cover center center;
     flex-shrink: 0;
     position: absolute;
 }
@@ -82,8 +88,11 @@ section.four_picturerowv.picture_1>div.shop>a:hover {
 
 section.four_picture>div.picture_2 {
     width: 50%;
-    height: calc(910.04px / 2);
+    transition: none;
+    height: 50vh;
     position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
     
 }
 
@@ -114,11 +123,14 @@ section.four_picture>div.picture_2>div.details_picture>h3 {
 section.four_picture>div.picture_2>a {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 section.four_picture>div.picture_2>a>img {
     width: 100%;
     height: 100%;
+    object-fit: cover center center;
     flex-shrink: 0;
     position: absolute;
 }
@@ -154,8 +166,11 @@ section.four_picturerowv.picture_2>div.shop>a:hover {
 
 section.four_picture>div.picture_3 {
     width: 50%;
-    height: calc(910.04px / 2);
+    transition: none;
+    height: 50vh;
     position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
     
 }
 
@@ -186,11 +201,14 @@ section.four_picture>div.picture_3>div.details_picture>h3 {
 section.four_picture>div.picture_3>a {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 section.four_picture>div.picture_3>a>img {
     width: 100%;
     height: 100%;
+    object-fit: cover center center;
     flex-shrink: 0;
     position: absolute;
 }
@@ -226,8 +244,11 @@ section.four_picturerowv.picture_3>div.shop>a:hover {
 
 section.four_picture>div.picture_4 {
     width: 50%;
-    height: calc(910.04px / 2);
+    transition: none;
+    height: 50vh;
     position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
     
 }
 
@@ -258,11 +279,14 @@ section.four_picture>div.picture_4>div.details_picture>h3 {
 section.four_picture>div.picture_4>a {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 section.four_picture>div.picture_4>a>img {
     width: 100%;
     height: 100%;
+    object-fit: cover center center;
     flex-shrink: 0;
     position: absolute;
 }

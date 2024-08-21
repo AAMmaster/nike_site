@@ -76,6 +76,34 @@ axios.get('http://localhost:3000/banner')
         banner.innerHTML = html_banner
 
 
+        let picure_1_dad = document.getElementById("picure_1_dad")
+        let picure_2_dad = document.getElementById("picure_2_dad")
+        let picure_3_dad = document.getElementById("picure_3_dad")
+        let picure_4_dad = document.getElementById("picure_4_dad")
+
+
+
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth <= 599) {
+                four_picture.style.flexFlow = "column wrap";
+                picure_1_dad.style.width = ("100%")
+                picure_2_dad.style.width = ("100%")
+                picure_3_dad.style.width = ("100%")
+                picure_4_dad.style.width = ("100%")
+
+            } else if (window.innerWidth >= 600) {
+                four_picture.style.flexFlow = "row wrap";
+                picure_1_dad.style.width = ("50%")
+                picure_2_dad.style.width = ("50%")
+                picure_3_dad.style.width = ("50%")
+                picure_4_dad.style.width = ("50%")
+                console.log("ali kore");
+
+            }
+
+        },)
+
     })
     .catch((error) => {
         console.error('Error:', error);
@@ -83,31 +111,3 @@ axios.get('http://localhost:3000/banner')
     });
 
 
-let picure_1_dad = document.getElementById("picure_1_dad")
-let picure_2_dad = document.getElementById("picure_2_dad")
-let picure_3_dad = document.getElementById("picure_3_dad")
-let picure_4_dad = document.getElementById("picure_4_dad")
-
-
-
-four_picture = document.getElementByI("four_picture");
-let hasRun = false;
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth <= 599 && !hasRun) {
-        four_picture_setting.style.flexFlow = "column wrap";
-
-
-        picure_1_dad.style.width = ("100")
-        picure_2_dad.style.width = ("100")
-        picure_3_dad.style.width = ("100")
-        picure_4_dad.style.width = ("100")
-
-
-        hasRun = true;
-    } else if (window.innerWidth > 599 && hasRun) {
-        four_picture_setting.style.flexFlow = "row wrap";
-        console.log("ali kore");
-        hasRun = false;
-    }
-});
