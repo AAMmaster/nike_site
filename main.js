@@ -82,10 +82,7 @@ axios.get('http://localhost:3000/banner')
         banner.innerHTML = 'Error loading data. Please try again later.';
     });
 
-let picure1 = document.getElementById("picure_1")
-let picure2 = document.getElementById("picure_2")
-let picure3 = document.getElementById("picure_3")
-let picure4 = document.getElementById("picure_4")
+
 let picure_1_dad = document.getElementById("picure_1_dad")
 let picure_2_dad = document.getElementById("picure_2_dad")
 let picure_3_dad = document.getElementById("picure_3_dad")
@@ -93,35 +90,24 @@ let picure_4_dad = document.getElementById("picure_4_dad")
 
 
 
-let ali = setInterval(() => {
-    picure1 = document.getElementById("picure_1")
-    picure2 = document.getElementById("picure_2")
-    picure3 = document.getElementById("picure_3")
-    picure4 = document.getElementById("picure_4")
-    picure_1_dad = document.getElementById("picure_1_dad")
-    picure_2_dad = document.getElementById("picure_2_dad")
-    picure_3_dad = document.getElementById("picure_3_dad")
-    picure_4_dad = document.getElementById("picure_4_dad")
+four_picture = document.getElementByI("four_picture");
+let hasRun = false;
 
-    if (window.innerWidth <= 599) {
-        // picure1.style.minWidth = ("599px")
-        // picure2.style.minWidth = ("599px")
-        // picure3.style.minWidth = ("599px")
-        // picure4.style.minWidth = ("599px")
-        picure1.style.display = ("block")
-        picure2.style.display = ("block")
-        picure3.style.display = ("block")
-        picure4.style.display = ("block")
-        clearInterval(ali)
-    } else {
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 599 && !hasRun) {
+        four_picture_setting.style.flexFlow = "column wrap";
+
+
+        picure_1_dad.style.width = ("100")
+        picure_2_dad.style.width = ("100")
+        picure_3_dad.style.width = ("100")
+        picure_4_dad.style.width = ("100")
+
+
+        hasRun = true;
+    } else if (window.innerWidth > 599 && hasRun) {
+        four_picture_setting.style.flexFlow = "row wrap";
         console.log("ali kore");
-
+        hasRun = false;
     }
-
-}, 50);
-// let picure = document.getElementById("picure")
-// if (window.innerWidth <= 599) {
-//     picure.style.minWidth = ("599px")
-// } else {
-//     console.log("ali kore");
-// }
+});
