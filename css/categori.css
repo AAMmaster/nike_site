@@ -1,4 +1,8 @@
-
+@media (min-width : 1200px) {}
+@media (min-width : 994px) and (max-width : 1200px) {}
+@media (min-width : 768px) and (max-width : 994px){}
+@media (min-width : 576px) and (max-width : 768px){}
+@media (max-width : 576px){}
 section.categori {
     position: relative;
     margin-top: 185px;

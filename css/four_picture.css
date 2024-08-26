@@ -1,321 +1,1744 @@
-section.four_picture {
-    position: relative;
-    width: 100%;
-    min-height: 910.04px;
-    display: flex;
-    flex-flow: row wrap;
-    
+@media (min-width : 1200px) {
+    section.four_picture {
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+
+
+    }
+
+    section.four_picture>div.picture_1 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_1>div.details_picture {
+        margin-bottom: 20px;
+        position: absolute;
+        width: fit-content;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_1>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_1>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_1>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_1>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+
+
+    }
+
+    section.four_picturerowv.picture_1>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_2 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_2>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_2>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_2>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_2>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_2>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_2>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_3 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_3>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_3>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_3>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_3>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_3>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_3>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_4 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_4>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_4>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_4>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_4>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
 }
 
-section.four_picture>div.picture_1 {
-    width: 50%;
-    transition: none;
-    height: 50vh;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-    
+@media (min-width : 994px) and (max-width : 1200px) {
+    section.four_picture {
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+
+
+    }
+
+    section.four_picture>div.picture_1 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_1>div.details_picture {
+        margin-bottom: 20px;
+        position: absolute;
+        width: fit-content;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_1>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_1>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_1>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_1>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+
+
+    }
+
+    section.four_picturerowv.picture_1>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_2 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_2>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_2>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_2>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_2>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_2>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_2>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_3 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_3>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_3>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_3>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_3>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_3>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_3>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_4 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_4>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_4>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_4>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_4>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
 }
 
-section.four_picture>div.picture_1>div.details_picture {
-    position: relative;
-    width: fit-content;
-    color: white;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 290px;
-    left: 47.5px;
+@media (min-width : 768px) and (max-width : 994px) {
+    section.four_picture {
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+
+
+    }
+
+    section.four_picture>div.picture_1 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_1>div.details_picture {
+        margin-bottom: 20px;
+        position: absolute;
+        width: fit-content;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_1>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_1>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_1>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_1>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+
+
+    }
+
+    section.four_picturerowv.picture_1>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_2 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_2>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_2>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_2>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_2>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_2>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_2>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_3 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_3>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_3>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_3>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_3>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_3>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_3>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_4 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_4>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_4>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_4>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_4>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
 }
 
-section.four_picture>div.picture_1>div.details_picture>p {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    height: 17px;
-    font-weight: 550;
+@media (min-width : 576px) and (max-width : 768px) {
+    section.four_picture {
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+
+
+    }
+
+    section.four_picture>div.picture_1 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_1>div.details_picture {
+        margin-bottom: 20px;
+        position: absolute;
+        width: fit-content;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_1>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_1>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_1>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_1>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_1>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+
+
+    }
+
+    section.four_picturerowv.picture_1>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_2 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_2>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_2>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_2>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_2>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_2>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_2>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_2>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_3 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_3>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_3>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_3>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_3>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_3>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_3>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_4 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_4>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_4>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_4>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_4>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
 }
 
-section.four_picture>div.picture_1>div.details_picture>h3 {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 23px;
-    font-weight: 530;
-}
+@media (max-width : 576px) {
+    section.four_picture {
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
 
 
-section.four_picture>div.picture_1>a {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-}
+    }
 
-section.four_picture>div.picture_1>a>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover center center;
-    flex-shrink: 0;
-    position: absolute;
-}
+    section.four_picture>div.picture_1 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
 
-section.four_picture>div.picture_1>div.shop {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    top: 300px;
-    left: 47.5px;
-    width: 70px;
-    height: 35px;
-}
+    }
 
-section.four_picture>div.picture_1>div.shop>a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    left: 0px;
-    font-weight: 550;
-    top: 0px;
-    line-height: 20px;
-    padding: 9px 15px;
-    border-radius: 20px;
-    width: 70px;
-    height: 35px;
-    transition: all ease 0ms;
+    section.four_picture>div.picture_1>div.details_picture {
+        margin-bottom: 20px;
+        position: absolute;
+        width: fit-content;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
 
+    section.four_picture>div.picture_1>div.details_picture>p {
 
-}
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
 
-section.four_picturerowv.picture_1>div.shop>a:hover {
-    background-color: #CACACB;
-}
+    section.four_picture>div.picture_1>div.details_picture>h3 {
 
-section.four_picture>div.picture_2 {
-    width: 50%;
-    transition: none;
-    height: 50vh;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-    
-}
-
-section.four_picture>div.picture_2>div.details_picture {
-    
-    width: fit-content;
-    position: relative;
-    color: white;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif; 
-    top: 290px;
-    left: 47.5px;
-}
-
-section.four_picture>div.picture_2>div.details_picture>p {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    height: 17px;
-    font-weight: 550;
-}
-
-section.four_picture>div.picture_2>div.details_picture>h3 {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 23px;
-    font-weight: 530;
-}
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
 
 
-section.four_picture>div.picture_2>a {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-}
+    section.four_picture>div.picture_1>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
 
-section.four_picture>div.picture_2>a>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover center center;
-    flex-shrink: 0;
-    position: absolute;
-}
+    section.four_picture>div.picture_1>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
 
-section.four_picture>div.picture_2>div.shop {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    top: 300px;
-    left: 47.5px;
-    width: 70px;
-    height: 35px;
-}
+    section.four_picture>div.picture_1>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
 
-section.four_picture>div.picture_2>div.shop>a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    left: 0px;
-    font-weight: 550;
-    top: 0px;
-    line-height: 20px;
-    padding: 9px 15px;
-    border-radius: 20px;
-    width: 70px;
-    height: 35px;
-    transition: all ease 0ms;
-}
-
-section.four_picturerowv.picture_2>div.shop>a:hover {
-    background-color: #CACACB;
-}
-
-section.four_picture>div.picture_3 {
-    width: 50%;
-    transition: none;
-    height: 50vh;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-    
-}
-
-section.four_picture>div.picture_3>div.details_picture {
-    
-    width: fit-content;
-    position: relative;
-    color: white;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 290px;
-    left: 47.5px;
-}
-
-section.four_picture>div.picture_3>div.details_picture>p {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    height: 17px;
-    font-weight: 550;
-}
-
-section.four_picture>div.picture_3>div.details_picture>h3 {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 23px;
-    font-weight: 530;
-}
+    section.four_picture>div.picture_1>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
 
 
-section.four_picture>div.picture_3>a {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-}
+    }
 
-section.four_picture>div.picture_3>a>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover center center;
-    flex-shrink: 0;
-    position: absolute;
-}
+    section.four_picturerowv.picture_1>div.shop>a:hover {
+        background-color: #CACACB;
+    }
 
-section.four_picture>div.picture_3>div.shop {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    top: 300px;
-    left: 47.5px;
-    width: 70px;
-    height: 35px;
-}
+    section.four_picture>div.picture_2 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
 
-section.four_picture>div.picture_3>div.shop>a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    left: 0px;
-    font-weight: 550;
-    top: 0px;
-    line-height: 20px;
-    padding: 9px 15px;
-    border-radius: 20px;
-    width: 70px;
-    height: 35px;
-    transition: all ease 0ms;
-}
+    }
 
-section.four_picturerowv.picture_3>div.shop>a:hover {
-    background-color: #CACACB;
-}
+    section.four_picture>div.picture_2>div.details_picture {
+        margin-bottom: 20px;
 
-section.four_picture>div.picture_4 {
-    width: 50%;
-    transition: none;
-    height: 50vh;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-    
-}
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
 
-section.four_picture>div.picture_4>div.details_picture {
-    
-    width: fit-content;
-    position: relative;
-    color: white;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    top: 290px;
-    left: 47.5px;
-}
+    section.four_picture>div.picture_2>div.details_picture>p {
 
-section.four_picture>div.picture_4>div.details_picture>p {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    height: 17px;
-    font-weight: 550;
-}
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
 
-section.four_picture>div.picture_4>div.details_picture>h3 {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 23px;
-    font-weight: 530;
-}
+    section.four_picture>div.picture_2>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
 
 
-section.four_picture>div.picture_4>a {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-}
+    section.four_picture>div.picture_2>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
 
-section.four_picture>div.picture_4>a>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover center center;
-    flex-shrink: 0;
-    position: absolute;
-}
+    section.four_picture>div.picture_2>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
 
-section.four_picture>div.picture_4>div.shop {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    top: 300px;
-    left: 47.5px;
-    width: 70px;
-    height: 35px;
-}
+    section.four_picture>div.picture_2>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
 
-section.four_picture>div.picture_4>div.shop>a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    left: 0px;
-    font-weight: 550;
-    top: 0px;
-    line-height: 20px;
-    padding: 9px 15px;
-    border-radius: 20px;
-    width: 70px;
-    height: 35px;
-    transition: all ease 0ms;
-}
+    section.four_picture>div.picture_2>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
 
-section.four_picture>div.picture_4>div.shop>a:hover {
-    background-color: #CACACB;
+    section.four_picturerowv.picture_2>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_3 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_3>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_3>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_3>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_3>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_3>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_3>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picturerowv.picture_3>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
+    section.four_picture>div.picture_4 {
+        width: 50%;
+        transition: none;
+        height: fit-content;
+        position: relative;
+        flex-shrink: 0;
+        overflow: hidden;
+
+    }
+
+    section.four_picture>div.picture_4>div.details_picture {
+        margin-bottom: 20px;
+
+        width: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        top: 62%;
+        left: 47.5px;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>p {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        height: 17px;
+        font-weight: 550;
+    }
+
+    section.four_picture>div.picture_4>div.details_picture>h3 {
+
+        position: relative;
+        font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 530;
+    }
+
+
+    section.four_picture>div.picture_4>a {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    section.four_picture>div.picture_4>a>img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover center center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    section.four_picture>div.picture_4>div.shop {
+        position: absolute;
+        background-color: white;
+        border-radius: 20px;
+        top: 80%;
+        left: 47.5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        left: 0px;
+        font-weight: 550;
+        top: 0px;
+        line-height: 20px;
+        padding: 9px 15px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        transition: all ease 0ms;
+    }
+
+    section.four_picture>div.picture_4>div.shop>a:hover {
+        background-color: #CACACB;
+    }
+
 }

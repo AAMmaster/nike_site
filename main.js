@@ -110,4 +110,3 @@ axios.get('http://localhost:3000/banner')
         banner.innerHTML = 'Error loading data. Please try again later.';
     });
 
-

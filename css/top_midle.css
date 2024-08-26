@@ -1,3 +1,8 @@
+/* @media (min-width : 1200px) {}
+@media (min-width : 994px) and (max-width : 1200px) {}
+@media (min-width : 768px) and (max-width : 994px){}
+@media (min-width : 576px) and (max-width : 768px){}
+@media (max-width : 576px){} */
 section.top_midle {
     width: 100%;
     height: 60px;
@@ -7,7 +12,6 @@ section.top_midle {
     position: sticky;
     transition: top 0.2s;
     background-color: white;
-    z-index: 11;
 }
 
 section.top_midle>div.nike_icon {

@@ -1,0 +1,16 @@
+section.golfman{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    height: fit-content;
+    max-height: 467px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+section.golfman>img{
+    width: 100%;
+    height: fit-content;
+    
+}
+
