@@ -73,18 +73,25 @@ section.top_midle>div.center_menu>nav>ul>li>a {
 }
 
 
-#dropbtn_top,
-#dropdown-content {
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>button.dropbtn_top,
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>button.dropbtn_top>a,
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div.dropdown-content {
     padding: 5px;
-    width: 50%;
+    width: fit-content;
     margin: 0 auto;
+    color: #000;
+    font-weight: 550;
     text-align: center;
     background-color: white;
     text-decoration: none;
 }
 
-#dropdown-content {
-    width: 100%;
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div.dropdown-content {
+    background-color: white;
+    position:absolute;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
     display: none;
 }
 
