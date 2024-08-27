@@ -12,6 +12,7 @@ section.top_midle {
     position: sticky;
     transition: top 0.2s;
     background-color: white;
+    z-index: 9;
 }
 
 section.top_midle>div.nike_icon {
@@ -38,7 +39,7 @@ section.top_midle>div.nike_icon>a>img {
 
 section.top_midle>div.center_menu {
     position: absolute;
-    top: 21px;
+    padding-top: 21px;
     font-weight: 550;
     width: 733px;
     height: 60px;
@@ -48,7 +49,12 @@ section.top_midle>div.center_menu {
 
 }
 
+section.top_midle>div.center_menu>nav {
+    height: 100%;
+}
+
 section.top_midle>div.center_menu>nav>ul {
+    height: 100%;
     display: flex;
     flex-flow: row nowrap;
     gap: 22.5px;
@@ -57,13 +63,33 @@ section.top_midle>div.center_menu>nav>ul {
 
 section.top_midle>div.center_menu>nav>ul>li {
     display: inline-block;
-    
-    
+
+
 }
-section.top_midle>div.center_menu>nav>ul>li>a{
+
+section.top_midle>div.center_menu>nav>ul>li>a {
     text-decoration: none;
     color: black;
 }
+
+
+#dropbtn_top,
+#dropdown-content {
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+#dropdown-content {
+    width: 100%;
+    display: none;
+}
+
+
+
 section.top_midle>div.right_search {
     width: 168px;
     height: 36px;
@@ -105,31 +131,33 @@ section.top_midle>div.right_icons {
     left: 90%;
     top: 15px;
 }
-section.top_midle>div.right_icons>a.heart{
+
+section.top_midle>div.right_icons>a.heart {
     position: absolute;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     left: 16px;
     top: 1px;
-    
-    
+
+
 }
-section.top_midle>div.right_icons>a.heart:hover{
+
+section.top_midle>div.right_icons>a.heart:hover {
     background-color: #E5E5E5;
 }
 
-section.top_midle>div.right_icons>a.heart>img{
+section.top_midle>div.right_icons>a.heart>img {
     position: absolute;
     left: 5.5px;
     top: 8px;
-    
-    width:  21px;
+
+    width: 21px;
     height: 17px;
 }
 
 
-section.top_midle>div.right_icons>a.bag{
+section.top_midle>div.right_icons>a.bag {
     width: 32px;
     height: 32px;
     position: absolute;
@@ -138,12 +166,14 @@ section.top_midle>div.right_icons>a.bag{
     border-radius: 50%;
 
 }
-section.top_midle>div.right_icons>a.bag:hover{
+
+section.top_midle>div.right_icons>a.bag:hover {
     background-color: #E5E5E5;
 }
-section.top_midle>div.right_icons>a.bag>img{
+
+section.top_midle>div.right_icons>a.bag>img {
     position: absolute;
     left: -3px;
     top: 1px;
-    
+
 }

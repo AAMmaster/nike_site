@@ -12,8 +12,6 @@ section.top_top {
     display: flex;
     box-sizing: border-box;
     flex-flow: row nowrap;
-    
-    
     padding: 0 48px;
     z-index: 10;
 }
@@ -137,19 +135,17 @@ section.top_top>div.details>nav>ul>li>div.dropdown {
 
 /* Dropdown Content (Hidden by Default) */
 section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content {
-    display:inline-block;
-    opacity: 0;
+    display: none;
     padding: 0 10px;
     position: absolute;
     top: 30px;
     left: -195px;
     padding-bottom: 15px;
-    transition: all ease 200ms;
     border-radius: 10px;
     background-color: white;
     width: 242px;
     text-align: left;
-    z-index: 12;
+    z-index: 10;
 }
 
 section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content>h1 {
@@ -179,8 +175,7 @@ section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content a:hover 
 /* Show the dropdown menu on hover */
 section.top_top>div.details>nav>ul>li>div.dropdown:hover .dropdown-content {
     top: 36px;
-    display:inline-block;
-    opacity: 1;
+    display: inline-block;
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 section.top_top>div.details>nav>ul>li>div.dropdown:hover>button.dropbtn {

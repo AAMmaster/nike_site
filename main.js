@@ -110,3 +110,17 @@ axios.get('http://localhost:3000/banner')
         banner.innerHTML = 'Error loading data. Please try again later.';
     });
 
+
+
+
+
+
+    
+$(document).ready(() => {
+    $("#dropbtn_top").mouseenter(function () {
+        $("#dropdown-content").slideDown("fast");
+    });
+    $("#dropbtn_top" && "#dropdown-content").mouseleave(function () {
+        $("#dropdown-content").slideUp("fast");
+    });
+});

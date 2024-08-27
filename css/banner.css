@@ -6,6 +6,7 @@ section.golfman{
     max-height: 467px;
     overflow: hidden;
     object-fit: contain;
+    z-index: 8;
 }
 
 section.golfman>img{
