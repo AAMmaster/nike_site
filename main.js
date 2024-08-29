@@ -117,10 +117,45 @@ axios.get('http://localhost:3000/banner')
 
     
 $(document).ready(() => {
-    $("#dropbtn_top").mouseenter(function () {
-        $("#dropdown-content").slideDown("fast");
+    $("#dropbtn_top_n").mouseenter(function () {
+        $("#dropdown-content_n").slideDown("normal");
     });
-    $("#dropdown").mouseleave(function () {
-        $("#dropdown-content").slideUp("fast");
+    $("#dropdown_n").mouseleave(function () {
+        $("#dropdown-content_n").slideUp("normal");
+    });
+
+    $("#dropbtn_top_m").mouseenter(function () {
+        $("#dropdown-content_m").slideDown("fast");
+    });
+    $("#dropdown_m").mouseleave(function () {
+        $("#dropdown-content_m").slideUp("fast");
+    });
+
+    $("#dropbtn_top_w").mouseenter(function () {
+        $("#dropdown-content_w").slideDown("fast");
+    });
+    $("#dropdown_w").mouseleave(function () {
+        $("#dropdown-content_w").slideUp("fast");
+    });
+
+    $("#dropbtn_top_k").mouseenter(function () {
+        $("#dropdown-content_k").slideDown("fast");
+    });
+    $("#dropdown_k").mouseleave(function () {
+        $("#dropdown-content_k").slideUp("fast");
+    });
+
+    $("#dropbtn_top_j").mouseenter(function () {
+        $("#dropdown-content_j").slideDown("fast");
+    });
+    $("#dropdown_j").mouseleave(function () {
+        $("#dropdown-content_j").slideUp("fast");
+    });
+
+    $("#dropbtn_top_s").mouseenter(function () {
+        $("#dropdown-content_s").slideDown("fast");
+    });
+    $("#dropdown_s").mouseleave(function () {
+        $("#dropdown-content_s").slideUp("fast");
     });
 });
