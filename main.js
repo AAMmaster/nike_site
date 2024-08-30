@@ -38,7 +38,32 @@ axios.get('http://localhost:3000/four_picture')
         </div>
         `
         }).join(''); // Use join to concatenate the array elements into a single string
-        four_picture.innerHTML = html
+        four_picture.innerHTML=html
+
+        let picure_1_dad = document.getElementById("picure_1_dad")
+        let picure_2_dad = document.getElementById("picure_2_dad")
+        let picure_3_dad = document.getElementById("picure_3_dad")
+        let picure_4_dad = document.getElementById("picure_4_dad")
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth <= 599) {
+                four_picture.style.flexFlow = "column wrap";
+                picure_1_dad.style.width = ("100%")
+                picure_2_dad.style.width = ("100%")
+                picure_3_dad.style.width = ("100%")
+                picure_4_dad.style.width = ("100%")
+
+            } else if (window.innerWidth >= 600) {
+                four_picture.style.flexFlow = "row wrap";
+                picure_1_dad.style.width = ("50%")
+                picure_2_dad.style.width = ("50%")
+                picure_3_dad.style.width = ("50%")
+                picure_4_dad.style.width = ("50%")
+                console.log("ali kore");
+
+            }
+
+        },)
     })
     .catch((error) => {
         console.error('Error:', error);
@@ -71,38 +96,13 @@ axios.get('http://localhost:3000/banner')
                 </div>
             `
         }).join('');
+
         banner_des.innerHTML = html_banner_des
         // Use join to concatenate the array elements into a single string
         banner.innerHTML = html_banner
 
 
-        let picure_1_dad = document.getElementById("picure_1_dad")
-        let picure_2_dad = document.getElementById("picure_2_dad")
-        let picure_3_dad = document.getElementById("picure_3_dad")
-        let picure_4_dad = document.getElementById("picure_4_dad")
 
-
-
-
-        window.addEventListener("resize", () => {
-            if (window.innerWidth <= 599) {
-                four_picture.style.flexFlow = "column wrap";
-                picure_1_dad.style.width = ("100%")
-                picure_2_dad.style.width = ("100%")
-                picure_3_dad.style.width = ("100%")
-                picure_4_dad.style.width = ("100%")
-
-            } else if (window.innerWidth >= 600) {
-                four_picture.style.flexFlow = "row wrap";
-                picure_1_dad.style.width = ("50%")
-                picure_2_dad.style.width = ("50%")
-                picure_3_dad.style.width = ("50%")
-                picure_4_dad.style.width = ("50%")
-                console.log("ali kore");
-
-            }
-
-        },)
 
     })
     .catch((error) => {
@@ -115,7 +115,7 @@ axios.get('http://localhost:3000/banner')
 
 
 
-    
+
 $(document).ready(() => {
     $("#dropbtn_top_n").mouseenter(function () {
         $("#dropdown-content_n").slideDown("normal");
@@ -159,3 +159,9 @@ $(document).ready(() => {
         $("#dropdown-content_s").slideUp("fast");
     });
 });
+
+
+
+
+
+

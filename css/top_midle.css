@@ -39,11 +39,11 @@ section.top_midle>div.nike_icon>a>img {
 
 section.top_midle>div.center_menu {
     position: absolute;
-    padding-top: 21px;
+    padding-top: 20px;
     font-weight: 550;
     width: 733px;
     height: 60px;
-    left: calc(50% - 366.5px);
+    left: calc(50% - 370px);
     text-align: center;
 
 
@@ -57,7 +57,6 @@ section.top_midle>div.center_menu>nav>ul {
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
-    gap: 22.5px;
     justify-content: center;
 }
 
@@ -88,7 +87,6 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>button#dropbtn_top_s>a,
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div.dropdown-content {
     padding: 5px;
     width: fit-content;
-    margin: 0 auto;
     color: #000;
     font-weight: 550;
     text-align: center;
@@ -99,7 +97,7 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div.dropdown-content {
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_n {
     background-color: white;
     position:absolute;
-    left: -28.5vw;
+    left: -32vw;
     width: 100vw;
     height: fit-content;
     display: none;

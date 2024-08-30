@@ -1,8 +1,15 @@
+@font-face {
+    font-family: hell;
+    src: url(../fonts/Helvetica/HelveticaNowText-Medium.ttf);
+    src: url(../fonts/Helvetica/HelveticaNowText-Medium.eot);
+    src: url(../fonts/Helvetica/HelveticaNowText-Medium.woff);
+    src: url(../fonts/Helvetica/HelveticaNowText-Medium.woff2);
+}
 *{
     text-decoration: none;
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-family: hell;
     box-sizing: border-box;
     border: 0;
     transition: all ease 300ms;
