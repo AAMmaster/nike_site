@@ -66,6 +66,7 @@
     }
 
     section.four_picture>div.picture_1>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -80,6 +81,7 @@
         text-decoration: none;
         color: black;
         left: 0px;
+        
         font-weight: 550;
         top: 0px;
         line-height: 20px;
@@ -151,6 +153,7 @@
     }
 
     section.four_picture>div.picture_2>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -165,6 +168,7 @@
         text-decoration: none;
         color: black;
         left: 0px;
+        
         font-weight: 550;
         top: 0px;
         line-height: 20px;
@@ -234,6 +238,7 @@
     }
 
     section.four_picture>div.picture_3>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -248,6 +253,7 @@
         text-decoration: none;
         color: black;
         left: 0px;
+        
         font-weight: 550;
         top: 0px;
         line-height: 20px;
@@ -317,6 +323,7 @@
     }
 
     section.four_picture>div.picture_4>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -331,6 +338,7 @@
         text-decoration: none;
         color: black;
         left: 0px;
+        
         font-weight: 550;
         top: 0px;
         line-height: 20px;
@@ -415,6 +423,7 @@
     }
 
     section.four_picture>div.picture_1>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -444,6 +453,7 @@
     section.four_picturerowv.picture_1>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_2 {
         width: 50%;
@@ -500,6 +510,7 @@
     }
 
     section.four_picture>div.picture_2>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -527,6 +538,7 @@
     section.four_picturerowv.picture_2>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_3 {
         width: 50%;
@@ -583,6 +595,7 @@
     }
 
     section.four_picture>div.picture_3>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -610,6 +623,7 @@
     section.four_picturerowv.picture_3>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_4 {
         width: 50%;
@@ -666,6 +680,7 @@
     }
 
     section.four_picture>div.picture_4>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -693,6 +708,7 @@
     section.four_picture>div.picture_4>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
 }
 
@@ -764,6 +780,7 @@
     }
 
     section.four_picture>div.picture_1>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -793,6 +810,7 @@
     section.four_picturerowv.picture_1>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_2 {
         width: 50%;
@@ -849,6 +867,7 @@
     }
 
     section.four_picture>div.picture_2>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -876,6 +895,7 @@
     section.four_picturerowv.picture_2>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_3 {
         width: 50%;
@@ -932,6 +952,7 @@
     }
 
     section.four_picture>div.picture_3>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -959,6 +980,7 @@
     section.four_picturerowv.picture_3>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_4 {
         width: 50%;
@@ -1015,6 +1037,7 @@
     }
 
     section.four_picture>div.picture_4>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1042,6 +1065,7 @@
     section.four_picture>div.picture_4>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
 }
 
@@ -1113,6 +1137,7 @@
     }
 
     section.four_picture>div.picture_1>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1142,6 +1167,7 @@
     section.four_picturerowv.picture_1>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_2 {
         width: 50%;
@@ -1198,6 +1224,7 @@
     }
 
     section.four_picture>div.picture_2>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1225,6 +1252,7 @@
     section.four_picturerowv.picture_2>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_3 {
         width: 50%;
@@ -1281,6 +1309,7 @@
     }
 
     section.four_picture>div.picture_3>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1308,6 +1337,7 @@
     section.four_picturerowv.picture_3>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_4 {
         width: 50%;
@@ -1364,6 +1394,7 @@
     }
 
     section.four_picture>div.picture_4>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1391,6 +1422,7 @@
     section.four_picture>div.picture_4>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
 }
 
@@ -1462,6 +1494,7 @@
     }
 
     section.four_picture>div.picture_1>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1491,6 +1524,7 @@
     section.four_picturerowv.picture_1>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_2 {
         width: 50%;
@@ -1547,6 +1581,7 @@
     }
 
     section.four_picture>div.picture_2>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1574,6 +1609,7 @@
     section.four_picturerowv.picture_2>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_3 {
         width: 50%;
@@ -1630,6 +1666,7 @@
     }
 
     section.four_picture>div.picture_3>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1657,6 +1694,7 @@
     section.four_picturerowv.picture_3>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
     section.four_picture>div.picture_4 {
         width: 50%;
@@ -1713,6 +1751,7 @@
     }
 
     section.four_picture>div.picture_4>div.shop {
+        z-index: 20;
         position: absolute;
         background-color: white;
         border-radius: 20px;
@@ -1740,5 +1779,6 @@
     section.four_picture>div.picture_4>div.shop>a:hover {
         background-color: #CACACB;
     }
+    
 
 }
