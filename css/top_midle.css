@@ -51,6 +51,7 @@ section.top_midle>div.center_menu {
 
 section.top_midle>div.center_menu>nav {
     height: 100%;
+    width: 100%;
 }
 
 section.top_midle>div.center_menu>nav>ul {
@@ -95,48 +96,59 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div.dropdown-content {
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_n {
+    
     background-color: white;
-    position:absolute;
-    left: -32vw;
+    position: absolute;
+    right: -32vw;
     width: 100vw;
     height: fit-content;
     display: none;
 }
-section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_m{
+
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_m {
+    
     background-color: white;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
 }
-section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_w{
+
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_w {
+    
     background-color: white;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
 }
-section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_k{
+
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_k {
+    
     background-color: white;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
 }
-section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_j{
+
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_j {
+    
     background-color: white;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
 }
-section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_s{
+
+section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_s {
+    
     background-color: white;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: fit-content;

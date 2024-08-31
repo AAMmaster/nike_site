@@ -15,6 +15,126 @@ window.addEventListener('scroll', function () {
     lastScrollTop = scrollTop;
 });
 
+
+let dropdown_content_n = document.getElementById("dropdown-content_n")
+dropdown_content_n.addEventListener("mouseenter",()=>{
+    dropdown_content_n.style.display =("flex")
+    dropdown_content_n.style.justifyContent =("center")
+    dropdown_content_n.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_n = document.getElementById("dropbtn_top_n")
+dropbtn_n.addEventListener("mouseenter",()=>{
+    dropdown_content_n.style.display =("flex")
+    dropdown_content_n.style.justifyContent =("center")
+    dropdown_content_n.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+let dropdown_content_m = document.getElementById("dropdown-content_m")
+dropdown_content_m.addEventListener("mouseenter",()=>{
+    dropdown_content_m.style.display =("flex")
+    dropdown_content_m.style.justifyContent =("center")
+    dropdown_content_m.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_m = document.getElementById("dropbtn_top_m")
+dropbtn_m.addEventListener("mouseenter",()=>{
+    dropdown_content_m.style.display =("flex")
+    dropdown_content_m.style.justifyContent =("center")
+    dropdown_content_m.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+let dropdown_content_w = document.getElementById("dropdown-content_w")
+dropdown_content_w.addEventListener("mouseenter",()=>{
+    dropdown_content_w.style.display =("flex")
+    dropdown_content_w.style.justifyContent =("center")
+    dropdown_content_w.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_w = document.getElementById("dropbtn_top_w")
+dropbtn_w.addEventListener("mouseenter",()=>{
+    dropdown_content_w.style.display =("flex")
+    dropdown_content_w.style.justifyContent =("center")
+    dropdown_content_w.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+let dropdown_content_k = document.getElementById("dropdown-content_k")
+dropdown_content_k.addEventListener("mouseenter",()=>{
+    dropdown_content_k.style.display =("flex")
+    dropdown_content_k.style.justifyContent =("center")
+    dropdown_content_k.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_k = document.getElementById("dropbtn_top_k")
+dropbtn_k.addEventListener("mouseenter",()=>{
+    dropdown_content_k.style.display =("flex")
+    dropdown_content_k.style.justifyContent =("center")
+    dropdown_content_k.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+let dropdown_content_j = document.getElementById("dropdown-content_j")
+dropdown_content_j.addEventListener("mouseenter",()=>{
+    dropdown_content_j.style.display =("flex")
+    dropdown_content_j.style.justifyContent =("center")
+    dropdown_content_j.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_j = document.getElementById("dropbtn_top_j")
+dropbtn_j.addEventListener("mouseenter",()=>{
+    dropdown_content_j.style.display =("flex")
+    dropdown_content_j.style.justifyContent =("center")
+    dropdown_content_j.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+let dropdown_content_s = document.getElementById("dropdown-content_s")
+dropdown_content_s.addEventListener("mouseenter",()=>{
+    dropdown_content_s.style.display =("flex")
+    dropdown_content_s.style.justifyContent =("center")
+    dropdown_content_s.style.flexFlow =("row nowrap")
+})
+
+let dropbtn_s = document.getElementById("dropbtn_top_s")
+dropbtn_s.addEventListener("mouseenter",()=>{
+    dropdown_content_s.style.display =("flex")
+    dropdown_content_s.style.justifyContent =("center")
+    dropdown_content_s.style.flexFlow =("row nowrap")
+})
+
+
+
+
+
+
+
+
+
+
+
 const four_picture = document.getElementById("four_picture")
 let html = ``
 axios.get('http://localhost:3000/four_picture')
@@ -118,10 +238,10 @@ axios.get('http://localhost:3000/banner')
 
 $(document).ready(() => {
     $("#dropbtn_top_n").mouseenter(function () {
-        $("#dropdown-content_n").slideDown("normal");
+        $("#dropdown-content_n").slideDown("fast");
     });
     $("#dropdown_n").mouseleave(function () {
-        $("#dropdown-content_n").slideUp("normal");
+        $("#dropdown-content_n").slideUp("fast");
     });
 
     $("#dropbtn_top_m").mouseenter(function () {
