@@ -21,7 +21,7 @@ dropdown_content_n.addEventListener("mouseenter",()=>{
     dropdown_content_n.style.display =("flex")
     dropdown_content_n.style.justifyContent =("center")
     dropdown_content_n.style.flexFlow =("row nowrap")
-    dropdown_content_n.style.gap =("70px")
+    dropdown_content_n.style.gap =("50px")
 })
 
 let dropbtn_n = document.getElementById("dropbtn_top_n")
@@ -29,7 +29,7 @@ dropbtn_n.addEventListener("mouseenter",()=>{
     dropdown_content_n.style.display =("flex")
     dropdown_content_n.style.justifyContent =("center")
     dropdown_content_n.style.flexFlow =("row nowrap")
-    dropdown_content_n.style.gap =("70px")
+    dropdown_content_n.style.gap =("50px")
 })
 
 
@@ -42,7 +42,7 @@ dropdown_content_m.addEventListener("mouseenter",()=>{
     dropdown_content_m.style.display =("flex")
     dropdown_content_m.style.justifyContent =("center")
     dropdown_content_m.style.flexFlow =("row nowrap")
-    dropdown_content_m.style.gap =("70px")
+    dropdown_content_m.style.gap =("50px")
 })
 
 let dropbtn_m = document.getElementById("dropbtn_top_m")
@@ -50,7 +50,7 @@ dropbtn_m.addEventListener("mouseenter",()=>{
     dropdown_content_m.style.display =("flex")
     dropdown_content_m.style.justifyContent =("center")
     dropdown_content_m.style.flexFlow =("row nowrap")
-    dropdown_content_m.style.gap =("70px")
+    dropdown_content_m.style.gap =("50px")
 })
 
 
@@ -63,7 +63,7 @@ dropdown_content_w.addEventListener("mouseenter",()=>{
     dropdown_content_w.style.display =("flex")
     dropdown_content_w.style.justifyContent =("center")
     dropdown_content_w.style.flexFlow =("row nowrap")
-    dropdown_content_w.style.gap =("70px")
+    dropdown_content_w.style.gap =("50px")
 })
 
 let dropbtn_w = document.getElementById("dropbtn_top_w")
@@ -71,7 +71,7 @@ dropbtn_w.addEventListener("mouseenter",()=>{
     dropdown_content_w.style.display =("flex")
     dropdown_content_w.style.justifyContent =("center")
     dropdown_content_w.style.flexFlow =("row nowrap")
-    dropdown_content_w.style.gap =("70px")
+    dropdown_content_w.style.gap =("50px")
 })
 
 
@@ -84,7 +84,7 @@ dropdown_content_k.addEventListener("mouseenter",()=>{
     dropdown_content_k.style.display =("flex")
     dropdown_content_k.style.justifyContent =("center")
     dropdown_content_k.style.flexFlow =("row nowrap")
-    dropdown_content_k.style.gap =("70px")
+    dropdown_content_k.style.gap =("50px")
 })
 
 let dropbtn_k = document.getElementById("dropbtn_top_k")
@@ -92,7 +92,7 @@ dropbtn_k.addEventListener("mouseenter",()=>{
     dropdown_content_k.style.display =("flex")
     dropdown_content_k.style.justifyContent =("center")
     dropdown_content_k.style.flexFlow =("row nowrap")
-    dropdown_content_k.style.gap =("70px")
+    dropdown_content_k.style.gap =("50px")
 })
 
 
@@ -105,7 +105,7 @@ dropdown_content_j.addEventListener("mouseenter",()=>{
     dropdown_content_j.style.display =("flex")
     dropdown_content_j.style.justifyContent =("center")
     dropdown_content_j.style.flexFlow =("row nowrap")
-    dropdown_content_j.style.gap =("70px")
+    dropdown_content_j.style.gap =("50px")
 })
 
 let dropbtn_j = document.getElementById("dropbtn_top_j")
@@ -113,7 +113,7 @@ dropbtn_j.addEventListener("mouseenter",()=>{
     dropdown_content_j.style.display =("flex")
     dropdown_content_j.style.justifyContent =("center")
     dropdown_content_j.style.flexFlow =("row nowrap")
-    dropdown_content_j.style.gap =("70px")
+    dropdown_content_j.style.gap =("50px")
 })
 
 
@@ -126,7 +126,7 @@ dropdown_content_s.addEventListener("mouseenter",()=>{
     dropdown_content_s.style.display =("flex")
     dropdown_content_s.style.justifyContent =("center")
     dropdown_content_s.style.flexFlow =("row nowrap")
-    dropdown_content_s.style.gap =("70px")
+    dropdown_content_s.style.gap =("50px")
 })
 
 let dropbtn_s = document.getElementById("dropbtn_top_s")
@@ -134,7 +134,7 @@ dropbtn_s.addEventListener("mouseenter",()=>{
     dropdown_content_s.style.display =("flex")
     dropdown_content_s.style.justifyContent =("center")
     dropdown_content_s.style.flexFlow =("row nowrap")
-    dropdown_content_s.style.gap =("70px")
+    dropdown_content_s.style.gap =("50px")
 })
 
 
