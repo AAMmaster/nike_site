@@ -99,10 +99,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_n 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 
@@ -151,10 +153,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_m 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_m>div {
@@ -197,10 +201,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_w 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_w>div#clumns_w {
@@ -246,10 +252,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_k 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_k>div#clumns_k {
@@ -294,10 +302,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_j 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_j>div#clumns_j {
@@ -342,10 +352,12 @@ section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_s 
 
     background-color: white;
     position: fixed;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: fit-content;
     display: none;
+    z-index: 100;
 }
 
 section.top_midle>div.center_menu>nav>ul>li>div.dropdown>div#dropdown-content_s>div#clumns_s {
