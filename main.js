@@ -16,11 +16,12 @@ window.addEventListener('scroll', function () {
 });
 
 
-let dropdown_content_n = document.getElementById("dropdown-content_n")
+let dropdown_content_n = document.getElementById("clumns_n")
 dropdown_content_n.addEventListener("mouseenter",()=>{
     dropdown_content_n.style.display =("flex")
     dropdown_content_n.style.justifyContent =("center")
     dropdown_content_n.style.flexFlow =("row nowrap")
+    dropdown_content_n.style.gap =("70px")
 })
 
 let dropbtn_n = document.getElementById("dropbtn_top_n")
@@ -28,6 +29,7 @@ dropbtn_n.addEventListener("mouseenter",()=>{
     dropdown_content_n.style.display =("flex")
     dropdown_content_n.style.justifyContent =("center")
     dropdown_content_n.style.flexFlow =("row nowrap")
+    dropdown_content_n.style.gap =("70px")
 })
 
 
@@ -35,11 +37,12 @@ dropbtn_n.addEventListener("mouseenter",()=>{
 
 
 
-let dropdown_content_m = document.getElementById("dropdown-content_m")
+let dropdown_content_m = document.getElementById("clumns_m")
 dropdown_content_m.addEventListener("mouseenter",()=>{
     dropdown_content_m.style.display =("flex")
     dropdown_content_m.style.justifyContent =("center")
     dropdown_content_m.style.flexFlow =("row nowrap")
+    dropdown_content_m.style.gap =("70px")
 })
 
 let dropbtn_m = document.getElementById("dropbtn_top_m")
@@ -47,6 +50,7 @@ dropbtn_m.addEventListener("mouseenter",()=>{
     dropdown_content_m.style.display =("flex")
     dropdown_content_m.style.justifyContent =("center")
     dropdown_content_m.style.flexFlow =("row nowrap")
+    dropdown_content_m.style.gap =("70px")
 })
 
 
@@ -54,11 +58,12 @@ dropbtn_m.addEventListener("mouseenter",()=>{
 
 
 
-let dropdown_content_w = document.getElementById("dropdown-content_w")
+let dropdown_content_w = document.getElementById("clumns_w")
 dropdown_content_w.addEventListener("mouseenter",()=>{
     dropdown_content_w.style.display =("flex")
     dropdown_content_w.style.justifyContent =("center")
     dropdown_content_w.style.flexFlow =("row nowrap")
+    dropdown_content_w.style.gap =("70px")
 })
 
 let dropbtn_w = document.getElementById("dropbtn_top_w")
@@ -66,6 +71,7 @@ dropbtn_w.addEventListener("mouseenter",()=>{
     dropdown_content_w.style.display =("flex")
     dropdown_content_w.style.justifyContent =("center")
     dropdown_content_w.style.flexFlow =("row nowrap")
+    dropdown_content_w.style.gap =("70px")
 })
 
 
@@ -73,11 +79,12 @@ dropbtn_w.addEventListener("mouseenter",()=>{
 
 
 
-let dropdown_content_k = document.getElementById("dropdown-content_k")
+let dropdown_content_k = document.getElementById("clumns_k")
 dropdown_content_k.addEventListener("mouseenter",()=>{
     dropdown_content_k.style.display =("flex")
     dropdown_content_k.style.justifyContent =("center")
     dropdown_content_k.style.flexFlow =("row nowrap")
+    dropdown_content_k.style.gap =("70px")
 })
 
 let dropbtn_k = document.getElementById("dropbtn_top_k")
@@ -85,6 +92,7 @@ dropbtn_k.addEventListener("mouseenter",()=>{
     dropdown_content_k.style.display =("flex")
     dropdown_content_k.style.justifyContent =("center")
     dropdown_content_k.style.flexFlow =("row nowrap")
+    dropdown_content_k.style.gap =("70px")
 })
 
 
@@ -92,11 +100,12 @@ dropbtn_k.addEventListener("mouseenter",()=>{
 
 
 
-let dropdown_content_j = document.getElementById("dropdown-content_j")
+let dropdown_content_j = document.getElementById("clumns_j")
 dropdown_content_j.addEventListener("mouseenter",()=>{
     dropdown_content_j.style.display =("flex")
     dropdown_content_j.style.justifyContent =("center")
     dropdown_content_j.style.flexFlow =("row nowrap")
+    dropdown_content_j.style.gap =("70px")
 })
 
 let dropbtn_j = document.getElementById("dropbtn_top_j")
@@ -104,6 +113,7 @@ dropbtn_j.addEventListener("mouseenter",()=>{
     dropdown_content_j.style.display =("flex")
     dropdown_content_j.style.justifyContent =("center")
     dropdown_content_j.style.flexFlow =("row nowrap")
+    dropdown_content_j.style.gap =("70px")
 })
 
 
@@ -111,11 +121,12 @@ dropbtn_j.addEventListener("mouseenter",()=>{
 
 
 
-let dropdown_content_s = document.getElementById("dropdown-content_s")
+let dropdown_content_s = document.getElementById("clumns_s")
 dropdown_content_s.addEventListener("mouseenter",()=>{
     dropdown_content_s.style.display =("flex")
     dropdown_content_s.style.justifyContent =("center")
     dropdown_content_s.style.flexFlow =("row nowrap")
+    dropdown_content_s.style.gap =("70px")
 })
 
 let dropbtn_s = document.getElementById("dropbtn_top_s")
@@ -123,6 +134,7 @@ dropbtn_s.addEventListener("mouseenter",()=>{
     dropdown_content_s.style.display =("flex")
     dropdown_content_s.style.justifyContent =("center")
     dropdown_content_s.style.flexFlow =("row nowrap")
+    dropdown_content_s.style.gap =("70px")
 })
 
 
