@@ -9,12 +9,8 @@ section.sliderin {
     height: 405.188px;
     overflow: hidden;
     top: 87px;
-
-}
-
-section.sliderin {
     margin: 0;
-    padding: 0;
+
 }
 
 section.sliderin>img {
@@ -26,6 +22,8 @@ section.sliderin>img {
     width: 115%;
     height: 388px;
     left: -185px;
+    
+    margin: 0;
 }
 
 .swiper-slide {
@@ -40,6 +38,7 @@ section.sliderin>img {
     bottom: 0px;
     flex-flow: column;
     border: 0;
+    margin: 0;
 }
 
 .swiper-slide img {
@@ -47,6 +46,7 @@ section.sliderin>img {
     position: relative;
     top: 40px;
     bottom: 0px;
+    margin: 0;
 }
 div.swiper-button-next{
     color: black;

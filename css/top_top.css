@@ -1,184 +1,187 @@
+@media (min-width : 960px) {
+    section.top_top {
+        position: relative;
+        width: 100%;
+        height: 36px;
+        background-color: #F5F5F5;
+        display: flex;
+        box-sizing: border-box;
+        flex-flow: row nowrap;
+        padding: 0 48px;
+        z-index: 10;
+    }
 
-@media (min-width : 1200px) {}
-@media (min-width : 994px) and (max-width : 1200px) {}
-@media (min-width : 768px) and (max-width : 994px){}
-@media (min-width : 576px) and (max-width : 768px){}
-@media (max-width : 576px){}
-section.top_top {
-    position: relative;
-    width: 100%;
-    height: 36px;
-    background-color: #F5F5F5;
-    display: flex;
-    box-sizing: border-box;
-    flex-flow: row nowrap;
-    padding: 0 48px;
-    z-index: 10;
+    section.top_top>div.logos {
+        box-sizing: border-box;
+        width: 50%;
+        height: 36px;
+        display: flex;
+        gap: 13px;
+    }
+
+    section.top_top>div.logos>div.jordan {
+        padding-top: 8px;
+        width: 24px;
+        height: 36px;
+    }
+
+    section.top_top>div.logos>div.jordan>a {
+        width: 24px;
+        height: 24px;
+    }
+
+    section.top_top>div.logos>div.jordan>a>img {
+        width: 19px;
+        height: 19px;
+
+    }
+
+    section.top_top>div.logos>div.convers {
+        width: 24px;
+        height: 36px;
+        padding-top: 5px;
+    }
+
+    section.top_top>div.logos>div.convers>a {
+        width: 24px;
+        height: 24px;
+    }
+
+    section.top_top>div.logos>div.convers>a>img {
+        width: 35px;
+        height: 24px;
+    }
+
+    section.top_top>div.details {
+        text-align: right;
+        width: 50%;
+        height: 36px;
+        display: flex;
+        position: relative;
+        flex-flow: row;
+        justify-content: end;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    section.top_top>div.details>nav>ul {
+        width: 100%;
+        height: 36px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row;
+        justify-content: end;
+        line-height: 40px;
+        font-size: 12px;
+
+    }
+
+    section.top_top>div.details>nav>ul>li {
+        display: inline-block;
+
+
+        font-weight: 550;
+
+
+
+    }
+
+    section.top_top>div.details>nav>ul>li>a {
+        width: 100%;
+        height: 100%;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top {
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        position: relative;
+        background-color: #F5F5F5;
+        text-align: center;
+        font-weight: 550;
+        border: none;
+        text-decoration: none;
+    }
+
+    section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top>a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        transition: all ease 0ms;
+    }
+
+    section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top>a:hover {
+        color: #727272;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    section.top_top>div.details>nav>ul>li>div.dropdown {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: none;
+
+        height: 100%;
+        background-color: #F5F5F5;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content {
+        display: none;
+        padding: 0 10px;
+        position: absolute;
+        top: 30px;
+        left: -195px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        background-color: white;
+        width: 242px;
+        text-align: left;
+        z-index: 10;
+    }
+
+    section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content>h1 {
+        font-size: 18px;
+        padding: 15px 15px 5px 16px;
+    }
+
+    /* Links inside the dropdown */
+    section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content a {
+        color: #727272;
+        font-size: 13px;
+        text-align: left;
+        width: 180px;
+        line-height: 1;
+        padding: 5.5px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+
+    /* Change color of dropdown links on hover */
+    section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content a:hover {
+        color: black;
+
+    }
+
+    /* Show the dropdown menu on hover */
+    section.top_top>div.details>nav>ul>li>div.dropdown:hover .dropdown-content {
+        top: 36px;
+        display: inline-block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    section.top_top>div.details>nav>ul>li>div.dropdown:hover>button.dropbtn {
+        background-color: #3e8e41;
+    }
 }
 
-section.top_top>div.logos {
-    box-sizing: border-box;
-    width: 50%;
-    height: 36px;
-    display: flex;
-    gap: 13px;
-}
-
-section.top_top>div.logos>div.jordan {
-    padding-top: 8px;
-    width: 24px;
-    height: 36px;
-}
-
-section.top_top>div.logos>div.jordan>a {
-    width: 24px;
-    height: 24px;
-}
-
-section.top_top>div.logos>div.jordan>a>img {
-    width: 19px;
-    height: 19px;
-
-}
-
-section.top_top>div.logos>div.convers {
-    width: 24px;
-    height: 36px;
-    padding-top: 5px;
-}
-
-section.top_top>div.logos>div.convers>a {
-    width: 24px;
-    height: 24px;
-}
-
-section.top_top>div.logos>div.convers>a>img {
-    width: 35px;
-    height: 24px;
-}
-
-section.top_top>div.details {
-    text-align: right;
-    width: 50%;
-    height: 36px;
-    display: flex;
-    position: relative;
-    flex-flow: row;
-    justify-content: end;
-    padding-right: 10px;
-    box-sizing: border-box;
-}
-
-section.top_top>div.details>nav>ul {
-    width: 100%;
-    height: 36px;
-    gap: 10px;
-    display: flex;
-    flex-flow: row;
-    justify-content: end;
-    line-height: 40px;
-    font-size: 12px;
-
-}
-
-section.top_top>div.details>nav>ul>li {
-    display: inline-block;
-
-
-    font-weight: 600;
-
-
-
-}
-
-section.top_top>div.details>nav>ul>li>a {
-    width: 100%;
-    height: 100%;
-    color: black;
-    text-decoration: none;
-}
-
-
-section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top {
-    width: 100%;
-    height: 100%;
-    font-size: 12px;
-    position: relative;
-    background-color: #F5F5F5;
-    text-align: center;
-    font-weight: 600;
-    border: none;
-    text-decoration: none;
-}
-
-section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top>a {
-    text-decoration: none;
-    font-size: 12px;
-    color: black;
-    transition: all ease 0ms;
-}
-
-section.top_top>div.details>nav>ul>li>div.dropdown>button.dropbtn_top>a:hover {
-    color: #727272;
-}
-
-/* The container <div> - needed to position the dropdown content */
-section.top_top>div.details>nav>ul>li>div.dropdown {
-    width: 100%;
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: none;
-    
-    height: 100%;
-    background-color: #F5F5F5;
-}
-
-/* Dropdown Content (Hidden by Default) */
-section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content {
-    display: none;
-    padding: 0 10px;
-    position: absolute;
-    top: 30px;
-    left: -195px;
-    padding-bottom: 15px;
-    border-radius: 10px;
-    background-color: white;
-    width: 242px;
-    text-align: left;
-    z-index: 10;
-}
-
-section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content>h1 {
-    font-size: 18px;
-    padding: 15px 15px 5px 16px;
-}
-
-/* Links inside the dropdown */
-section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content a {
-    color: #727272;
-    font-size: 13px;
-    text-align: left;
-    width: 180px;
-    line-height: 1;
-    padding: 5.5px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-
-/* Change color of dropdown links on hover */
-section.top_top>div.details>nav>ul>li>div.dropdown>div.dropdown-content a:hover {
-    color: black;
-    
-}
-
-/* Show the dropdown menu on hover */
-section.top_top>div.details>nav>ul>li>div.dropdown:hover .dropdown-content {
-    top: 36px;
-    display: inline-block;
-}
-/* Change the background color of the dropdown button when the dropdown content is shown */
-section.top_top>div.details>nav>ul>li>div.dropdown:hover>button.dropbtn {
-    background-color: #3e8e41;
+@media (max-width : 960px) {
+    section.top_top{
+        display: none;
+    }
 }

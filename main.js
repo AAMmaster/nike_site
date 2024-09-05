@@ -46,19 +46,19 @@ $(document).ready(() => {
 });
 
 let dropdown_content_n = document.getElementById("clumns_n")
-dropdown_content_n.addEventListener("mouseenter",()=>{
-    dropdown_content_n.style.display =("flex")
-    dropdown_content_n.style.justifyContent =("center")
-    dropdown_content_n.style.flexFlow =("row nowrap")
-    dropdown_content_n.style.gap =("50px")
+dropdown_content_n.addEventListener("mouseenter", () => {
+    dropdown_content_n.style.display = ("flex")
+    dropdown_content_n.style.justifyContent = ("center")
+    dropdown_content_n.style.flexFlow = ("row nowrap")
+    dropdown_content_n.style.gap = ("50px")
 })
 
 let dropbtn_n = document.getElementById("dropbtn_top_n")
-dropbtn_n.addEventListener("mouseenter",()=>{
-    dropdown_content_n.style.display =("flex")
-    dropdown_content_n.style.justifyContent =("center")
-    dropdown_content_n.style.flexFlow =("row nowrap")
-    dropdown_content_n.style.gap =("50px")
+dropbtn_n.addEventListener("mouseenter", () => {
+    dropdown_content_n.style.display = ("flex")
+    dropdown_content_n.style.justifyContent = ("center")
+    dropdown_content_n.style.flexFlow = ("row nowrap")
+    dropdown_content_n.style.gap = ("50px")
 })
 
 
@@ -67,19 +67,19 @@ dropbtn_n.addEventListener("mouseenter",()=>{
 
 
 let dropdown_content_m = document.getElementById("clumns_m")
-dropdown_content_m.addEventListener("mouseenter",()=>{
-    dropdown_content_m.style.display =("flex")
-    dropdown_content_m.style.justifyContent =("center")
-    dropdown_content_m.style.flexFlow =("row nowrap")
-    dropdown_content_m.style.gap =("50px")
+dropdown_content_m.addEventListener("mouseenter", () => {
+    dropdown_content_m.style.display = ("flex")
+    dropdown_content_m.style.justifyContent = ("center")
+    dropdown_content_m.style.flexFlow = ("row nowrap")
+    dropdown_content_m.style.gap = ("50px")
 })
 
 let dropbtn_m = document.getElementById("dropbtn_top_m")
-dropbtn_m.addEventListener("mouseenter",()=>{
-    dropdown_content_m.style.display =("flex")
-    dropdown_content_m.style.justifyContent =("center")
-    dropdown_content_m.style.flexFlow =("row nowrap")
-    dropdown_content_m.style.gap =("50px")
+dropbtn_m.addEventListener("mouseenter", () => {
+    dropdown_content_m.style.display = ("flex")
+    dropdown_content_m.style.justifyContent = ("center")
+    dropdown_content_m.style.flexFlow = ("row nowrap")
+    dropdown_content_m.style.gap = ("50px")
 })
 
 
@@ -88,19 +88,19 @@ dropbtn_m.addEventListener("mouseenter",()=>{
 
 
 let dropdown_content_w = document.getElementById("clumns_w")
-dropdown_content_w.addEventListener("mouseenter",()=>{
-    dropdown_content_w.style.display =("flex")
-    dropdown_content_w.style.justifyContent =("center")
-    dropdown_content_w.style.flexFlow =("row nowrap")
-    dropdown_content_w.style.gap =("50px")
+dropdown_content_w.addEventListener("mouseenter", () => {
+    dropdown_content_w.style.display = ("flex")
+    dropdown_content_w.style.justifyContent = ("center")
+    dropdown_content_w.style.flexFlow = ("row nowrap")
+    dropdown_content_w.style.gap = ("50px")
 })
 
 let dropbtn_w = document.getElementById("dropbtn_top_w")
-dropbtn_w.addEventListener("mouseenter",()=>{
-    dropdown_content_w.style.display =("flex")
-    dropdown_content_w.style.justifyContent =("center")
-    dropdown_content_w.style.flexFlow =("row nowrap")
-    dropdown_content_w.style.gap =("50px")
+dropbtn_w.addEventListener("mouseenter", () => {
+    dropdown_content_w.style.display = ("flex")
+    dropdown_content_w.style.justifyContent = ("center")
+    dropdown_content_w.style.flexFlow = ("row nowrap")
+    dropdown_content_w.style.gap = ("50px")
 })
 
 
@@ -109,19 +109,19 @@ dropbtn_w.addEventListener("mouseenter",()=>{
 
 
 let dropdown_content_k = document.getElementById("clumns_k")
-dropdown_content_k.addEventListener("mouseenter",()=>{
-    dropdown_content_k.style.display =("flex")
-    dropdown_content_k.style.justifyContent =("center")
-    dropdown_content_k.style.flexFlow =("row nowrap")
-    dropdown_content_k.style.gap =("50px")
+dropdown_content_k.addEventListener("mouseenter", () => {
+    dropdown_content_k.style.display = ("flex")
+    dropdown_content_k.style.justifyContent = ("center")
+    dropdown_content_k.style.flexFlow = ("row nowrap")
+    dropdown_content_k.style.gap = ("50px")
 })
 
 let dropbtn_k = document.getElementById("dropbtn_top_k")
-dropbtn_k.addEventListener("mouseenter",()=>{
-    dropdown_content_k.style.display =("flex")
-    dropdown_content_k.style.justifyContent =("center")
-    dropdown_content_k.style.flexFlow =("row nowrap")
-    dropdown_content_k.style.gap =("50px")
+dropbtn_k.addEventListener("mouseenter", () => {
+    dropdown_content_k.style.display = ("flex")
+    dropdown_content_k.style.justifyContent = ("center")
+    dropdown_content_k.style.flexFlow = ("row nowrap")
+    dropdown_content_k.style.gap = ("50px")
 })
 
 
@@ -130,19 +130,19 @@ dropbtn_k.addEventListener("mouseenter",()=>{
 
 
 let dropdown_content_j = document.getElementById("clumns_j")
-dropdown_content_j.addEventListener("mouseenter",()=>{
-    dropdown_content_j.style.display =("flex")
-    dropdown_content_j.style.justifyContent =("center")
-    dropdown_content_j.style.flexFlow =("row nowrap")
-    dropdown_content_j.style.gap =("50px")
+dropdown_content_j.addEventListener("mouseenter", () => {
+    dropdown_content_j.style.display = ("flex")
+    dropdown_content_j.style.justifyContent = ("center")
+    dropdown_content_j.style.flexFlow = ("row nowrap")
+    dropdown_content_j.style.gap = ("50px")
 })
 
 let dropbtn_j = document.getElementById("dropbtn_top_j")
-dropbtn_j.addEventListener("mouseenter",()=>{
-    dropdown_content_j.style.display =("flex")
-    dropdown_content_j.style.justifyContent =("center")
-    dropdown_content_j.style.flexFlow =("row nowrap")
-    dropdown_content_j.style.gap =("50px")
+dropbtn_j.addEventListener("mouseenter", () => {
+    dropdown_content_j.style.display = ("flex")
+    dropdown_content_j.style.justifyContent = ("center")
+    dropdown_content_j.style.flexFlow = ("row nowrap")
+    dropdown_content_j.style.gap = ("50px")
 })
 
 
@@ -152,19 +152,19 @@ dropbtn_j.addEventListener("mouseenter",()=>{
 
 
 let dropdown_content_s = document.getElementById("clumns_s")
-dropdown_content_s.addEventListener("mouseenter",()=>{
-    dropdown_content_s.style.display =("flex")
-    dropdown_content_s.style.justifyContent =("center")
-    dropdown_content_s.style.flexFlow =("row nowrap")
-    dropdown_content_s.style.gap =("50px")
+dropdown_content_s.addEventListener("mouseenter", () => {
+    dropdown_content_s.style.display = ("flex")
+    dropdown_content_s.style.justifyContent = ("center")
+    dropdown_content_s.style.flexFlow = ("row nowrap")
+    dropdown_content_s.style.gap = ("50px")
 })
 
 let dropbtn_s = document.getElementById("dropbtn_top_s")
-dropbtn_s.addEventListener("mouseenter",()=>{
-    dropdown_content_s.style.display =("flex")
-    dropdown_content_s.style.justifyContent =("center")
-    dropdown_content_s.style.flexFlow =("row nowrap")
-    dropdown_content_s.style.gap =("50px")
+dropbtn_s.addEventListener("mouseenter", () => {
+    dropdown_content_s.style.display = ("flex")
+    dropdown_content_s.style.justifyContent = ("center")
+    dropdown_content_s.style.flexFlow = ("row nowrap")
+    dropdown_content_s.style.gap = ("50px")
 })
 
 
@@ -173,19 +173,44 @@ dropbtn_s.addEventListener("mouseenter",()=>{
 
 let lastScrollTop = 0;
 const topMidle = document.getElementById('top_midle');
-
+let dropdown_content_s_s = document.getElementById("dropdown-content_s")
+let dropdown_content_n_n = document.getElementById("dropdown-content_n")
+let dropdown_content_k_k = document.getElementById("dropdown-content_k")
+let dropdown_content_m_m = document.getElementById("dropdown-content_m")
+let dropdown_content_w_w = document.getElementById("dropdown-content_w")
+let dropdown_content_j_j = document.getElementById("dropdown-content_j")
 window.addEventListener('scroll', function () {
     let scrollTop = document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop) {
         // Scrolling down
         topMidle.style.top = '-200px'; // Adjust this value as needed
+    } else if (window.scrollY === 0) {
+        dropdown_content_s_s.style.top = ("90px")
+        dropdown_content_n_n.style.top = ("90px")
+        dropdown_content_k_k.style.top = ("90px")
+        dropdown_content_m_m.style.top = ("90px")
+        dropdown_content_w_w.style.top = ("90px")
+        dropdown_content_j_j.style.top = ("90px")
     } else {
         // Scrolling up
         topMidle.style.top = '0';
+        dropdown_content_s_s.style.top = ("50px")
+        dropdown_content_n_n.style.top = ("50px")
+        dropdown_content_k_k.style.top = ("50px")
+        dropdown_content_m_m.style.top = ("50px")
+        dropdown_content_w_w.style.top = ("50px")
+        dropdown_content_j_j.style.top = ("50px")
+    } if (window.innerWidth <= 960) {
+
+        dropdown_content_s_s.style.top = ("50px")
+        dropdown_content_n_n.style.top = ("50px")
+        dropdown_content_k_k.style.top = ("50px")
+        dropdown_content_m_m.style.top = ("50px")
+        dropdown_content_w_w.style.top = ("50px")
+        dropdown_content_j_j.style.top = ("50px")
     }
     lastScrollTop = scrollTop;
 });
-
 
 
 
@@ -215,7 +240,7 @@ axios.get('http://localhost:3000/four_picture')
         </div>
         `
         }).join(''); // Use join to concatenate the array elements into a single string
-        four_picture.innerHTML=html
+        four_picture.innerHTML = html
 
         let picure_1_dad = document.getElementById("picure_1_dad")
         let picure_2_dad = document.getElementById("picure_2_dad")
@@ -238,7 +263,17 @@ axios.get('http://localhost:3000/four_picture')
                 picure_4_dad.style.width = ("50%")
                 console.log("ali kore");
 
+            } else if ( window.innerWidth <= 960) {
+
+                dropdown_content_s_s.style.top = ("50px")
+                dropdown_content_n_n.style.top = ("50px")
+                dropdown_content_k_k.style.top = ("50px")
+                dropdown_content_m_m.style.top = ("50px")
+                dropdown_content_w_w.style.top = ("50px")
+                dropdown_content_j_j.style.top = ("50px")
             }
+
+
 
         },)
     })

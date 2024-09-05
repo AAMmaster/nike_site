@@ -7,7 +7,7 @@ section.third_part {
     width: 93%;
     height: 25px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin: 0 auto;
     margin-bottom: 90px;
     gap: 20px;
