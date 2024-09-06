@@ -1178,7 +1178,8 @@
 
         position: absolute;
         font-weight: 550;
-        width: 100%;
+        right: 0;
+        width: 300px;
         height: fit-content;
 
 
@@ -1716,24 +1717,26 @@
         background-color: #E5E5E5;
     }
 
-    section.top_midle>div.center_menu>nav.secoond {
+    nav.secoond {
         text-decoration: none;
         list-style: none;
         position: absolute;
-        right: 0;
-        width: 308px;
+        top: 0;
+        right: -310px;
+        width: 300px;
         min-height: 100vh;
         height: fit-content;
         background-color: white;
         color: black;
-        display: flex;
+        display:fixed;
         flex-flow: column nowrap;
         justify-content: start;
         z-index: 1000;
 
     }
+    
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons {
+    nav.secoond>ul.buttons {
         margin-top: 10px;
         background-color: white;
         text-decoration: none;
@@ -1745,7 +1748,7 @@
 
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.exite {
+    nav.secoond>ul.buttons>li.exite {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1754,14 +1757,14 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.exite>button {
+    nav.secoond>ul.buttons>li.exite>button {
         background-color: white;
         position: absolute;
         right: 10px;
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.New {
+    nav.secoond>ul.buttons>li.New {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1770,7 +1773,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.New>button  {
+    nav.secoond>ul.buttons>li.New>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1779,18 +1782,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.New>button:hover{
+    nav.secoond>ul.buttons>li.New>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.New>button>img {
+    nav.secoond>ul.buttons>li.New>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Men {
+    nav.secoond>ul.buttons>li.Men {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1799,7 +1802,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Men>button  {
+    nav.secoond>ul.buttons>li.Men>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1808,18 +1811,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Men>button:hover{
+    nav.secoond>ul.buttons>li.Men>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Men>button>img {
+    nav.secoond>ul.buttons>li.Men>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Women {
+    nav.secoond>ul.buttons>li.Women {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1828,7 +1831,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Women>button  {
+    nav.secoond>ul.buttons>li.Women>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1837,18 +1840,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Women>button:hover{
+    nav.secoond>ul.buttons>li.Women>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Women>button>img {
+    nav.secoond>ul.buttons>li.Women>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.kids {
+    nav.secoond>ul.buttons>li.kids {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1857,7 +1860,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.kids>button  {
+    nav.secoond>ul.buttons>li.kids>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1866,18 +1869,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.kids>button:hover{
+    nav.secoond>ul.buttons>li.kids>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.kids>button>img {
+    nav.secoond>ul.buttons>li.kids>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Jordan {
+    nav.secoond>ul.buttons>li.Jordan {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1886,7 +1889,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Jordan>button  {
+    nav.secoond>ul.buttons>li.Jordan>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1895,18 +1898,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Jordan>button:hover{
+    nav.secoond>ul.buttons>li.Jordan>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Jordan>button>img {
+    nav.secoond>ul.buttons>li.Jordan>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Sale {
+    nav.secoond>ul.buttons>li.Sale {
         width: 100%;
         height: 50px;
         position: relative;
@@ -1915,7 +1918,7 @@
     }
 
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Sale>button  {
+    nav.secoond>ul.buttons>li.Sale>button  {
         width: 100%;
         position: absolute;
         display: flex;
@@ -1924,18 +1927,18 @@
         align-self: flex-start;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Sale>button:hover{
+    nav.secoond>ul.buttons>li.Sale>button:hover{
         color: #707072;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.buttons>li.Sale>button>img {
+    nav.secoond>ul.buttons>li.Sale>button>img {
         position: absolute;
         right: 10px;
         top: 5px;
         align-self: flex-end;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.links_two {
+    nav.secoond>ul.links_two {
         margin-top:30px;
         text-decoration: none;
         width: 100%;
@@ -1945,12 +1948,12 @@
         flex-flow: column nowrap;
         gap: 16px;
     }
-    section.top_midle>div.center_menu>nav.secoond>ul.links_two>li{
+    nav.secoond>ul.links_two>li{
         width: fit-content;
         height: fit-content;
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.links_two>li>a{
+    nav.secoond>ul.links_two>li>a{
         width: fit-content;
         height: fit-content;
         display: flex;
@@ -1961,26 +1964,26 @@
         text-decoration: none;
         color:black;
     }
-    section.top_midle>div.center_menu>nav.secoond>ul.links_two>li>a>img{
+    nav.secoond>ul.links_two>li>a>img{
         display: inline-block;
         height: fit-content;
         transform: scale(1.5);
     }
 
-    section.top_midle>div.center_menu>nav.secoond>ul.member {
+    section.navy>nav.secoond>ul.member {
+        margin-top: 40px;
         text-decoration: none;
         width: 100%;
         height: fit-content;
         list-style: none;
     }
-    section.top_midle>div.center_menu>nav.secoond>ul.member.li{
+    section.navy>nav.secoond>ul.member>li{
         width: 100%;
         height: fit-content;
-        font-size: 23px;
+        font-size: 21px;
     }
-    section.top_midle>div.center_menu>nav.secoond>ul.member.li{}
 
-    section.top_midle>div.center_menu>nav.secoond>ul.nav_two {
+    section.navy>nav.secoond>ul.nav_two {
         text-decoration: none;
         width: 100%;
         height: fit-content;

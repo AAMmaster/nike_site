@@ -1,5 +1,13 @@
 // @media (max-width : 2000px)
-
+let hamberger = document.getElementById("hamberger")
+let hamberger_come = document.getElementById("nav_second")
+let hamberger_exite = document.getElementById("exite")
+hamberger_exite.addEventListener("click",()=>{
+    hamberger_come.style.right = ("-310px")
+})
+hamberger.addEventListener("click",()=>{
+    hamberger_come.style.right = ("0")
+})
 window.addEventListener("resize", () => {
 
     $(document).ready(() => {
