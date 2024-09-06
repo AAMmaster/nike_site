@@ -1,171 +1,285 @@
 // @media (max-width : 2000px)
 
+window.addEventListener("resize", () => {
 
-$(document).ready(() => {
-    $("#dropbtn_top_n").mouseenter(function () {
-        $("#dropdown-content_n").slideDown("fast");
-    });
-    $("#dropdown_n").mouseleave(function () {
-        $("#dropdown-content_n").slideUp("fast");
+    $(document).ready(() => {
+        $("#dropbtn_top_n").mouseenter(function () {
+            $("#dropdown-content_n").slideDown("fast");
+        });
+        $("#dropdown_n").mouseleave(function () {
+            $("#dropdown-content_n").slideUp("fast");
+        });
+
+        $("#dropbtn_top_m").mouseenter(function () {
+            $("#dropdown-content_m").slideDown("fast");
+        });
+        $("#dropdown_m").mouseleave(function () {
+            $("#dropdown-content_m").slideUp("fast");
+        });
+
+        $("#dropbtn_top_w").mouseenter(function () {
+            $("#dropdown-content_w").slideDown("fast");
+        });
+        $("#dropdown_w").mouseleave(function () {
+            $("#dropdown-content_w").slideUp("fast");
+        });
+
+        $("#dropbtn_top_k").mouseenter(function () {
+            $("#dropdown-content_k").slideDown("fast");
+        });
+        $("#dropdown_k").mouseleave(function () {
+            $("#dropdown-content_k").slideUp("fast");
+        });
+
+        $("#dropbtn_top_j").mouseenter(function () {
+            $("#dropdown-content_j").slideDown("fast");
+        });
+        $("#dropdown_j").mouseleave(function () {
+            $("#dropdown-content_j").slideUp("fast");
+        });
+
+        $("#dropbtn_top_s").mouseenter(function () {
+            $("#dropdown-content_s").slideDown("fast");
+        });
+        $("#dropdown_s").mouseleave(function () {
+            $("#dropdown-content_s").slideUp("fast");
+        });
     });
 
-    $("#dropbtn_top_m").mouseenter(function () {
-        $("#dropdown-content_m").slideDown("fast");
-    });
-    $("#dropdown_m").mouseleave(function () {
-        $("#dropdown-content_m").slideUp("fast");
-    });
+    let dropdown_content_n = document.getElementById("clumns_n")
+    dropdown_content_n.addEventListener("mouseenter", () => {
+        dropdown_content_n.style.display = ("flex")
+        dropdown_content_n.style.justifyContent = ("center")
+        dropdown_content_n.style.flexFlow = ("row nowrap")
+        dropdown_content_n.style.gap = ("50px")
+    })
 
-    $("#dropbtn_top_w").mouseenter(function () {
-        $("#dropdown-content_w").slideDown("fast");
-    });
-    $("#dropdown_w").mouseleave(function () {
-        $("#dropdown-content_w").slideUp("fast");
-    });
+    let dropbtn_n = document.getElementById("dropbtn_top_n")
+    dropbtn_n.addEventListener("mouseenter", () => {
+        dropdown_content_n.style.display = ("flex")
+        dropdown_content_n.style.justifyContent = ("center")
+        dropdown_content_n.style.flexFlow = ("row nowrap")
+        dropdown_content_n.style.gap = ("50px")
+    })
 
-    $("#dropbtn_top_k").mouseenter(function () {
-        $("#dropdown-content_k").slideDown("fast");
-    });
-    $("#dropdown_k").mouseleave(function () {
-        $("#dropdown-content_k").slideUp("fast");
-    });
 
-    $("#dropbtn_top_j").mouseenter(function () {
-        $("#dropdown-content_j").slideDown("fast");
-    });
-    $("#dropdown_j").mouseleave(function () {
-        $("#dropdown-content_j").slideUp("fast");
-    });
 
-    $("#dropbtn_top_s").mouseenter(function () {
-        $("#dropdown-content_s").slideDown("fast");
-    });
-    $("#dropdown_s").mouseleave(function () {
-        $("#dropdown-content_s").slideUp("fast");
-    });
-});
 
-let dropdown_content_n = document.getElementById("clumns_n")
-dropdown_content_n.addEventListener("mouseenter", () => {
-    dropdown_content_n.style.display = ("flex")
-    dropdown_content_n.style.justifyContent = ("center")
-    dropdown_content_n.style.flexFlow = ("row nowrap")
-    dropdown_content_n.style.gap = ("50px")
+
+
+    let dropdown_content_m = document.getElementById("clumns_m")
+    dropdown_content_m.addEventListener("mouseenter", () => {
+        dropdown_content_m.style.display = ("flex")
+        dropdown_content_m.style.justifyContent = ("center")
+        dropdown_content_m.style.flexFlow = ("row nowrap")
+        dropdown_content_m.style.gap = ("50px")
+    })
+
+    let dropbtn_m = document.getElementById("dropbtn_top_m")
+    dropbtn_m.addEventListener("mouseenter", () => {
+        dropdown_content_m.style.display = ("flex")
+        dropdown_content_m.style.justifyContent = ("center")
+        dropdown_content_m.style.flexFlow = ("row nowrap")
+        dropdown_content_m.style.gap = ("50px")
+    })
+
+
+
+
+
+
+    let dropdown_content_w = document.getElementById("clumns_w")
+    dropdown_content_w.addEventListener("mouseenter", () => {
+        dropdown_content_w.style.display = ("flex")
+        dropdown_content_w.style.justifyContent = ("center")
+        dropdown_content_w.style.flexFlow = ("row nowrap")
+        dropdown_content_w.style.gap = ("50px")
+    })
+
+    let dropbtn_w = document.getElementById("dropbtn_top_w")
+    dropbtn_w.addEventListener("mouseenter", () => {
+        dropdown_content_w.style.display = ("flex")
+        dropdown_content_w.style.justifyContent = ("center")
+        dropdown_content_w.style.flexFlow = ("row nowrap")
+        dropdown_content_w.style.gap = ("50px")
+    })
+
+
+
+
+
+
+    let dropdown_content_k = document.getElementById("clumns_k")
+    dropdown_content_k.addEventListener("mouseenter", () => {
+        dropdown_content_k.style.display = ("flex")
+        dropdown_content_k.style.justifyContent = ("center")
+        dropdown_content_k.style.flexFlow = ("row nowrap")
+        dropdown_content_k.style.gap = ("50px")
+    })
+
+    let dropbtn_k = document.getElementById("dropbtn_top_k")
+    dropbtn_k.addEventListener("mouseenter", () => {
+        dropdown_content_k.style.display = ("flex")
+        dropdown_content_k.style.justifyContent = ("center")
+        dropdown_content_k.style.flexFlow = ("row nowrap")
+        dropdown_content_k.style.gap = ("50px")
+    })
+
+
+
+
+
+
+    let dropdown_content_j = document.getElementById("clumns_j")
+    dropdown_content_j.addEventListener("mouseenter", () => {
+        dropdown_content_j.style.display = ("flex")
+        dropdown_content_j.style.justifyContent = ("center")
+        dropdown_content_j.style.flexFlow = ("row nowrap")
+        dropdown_content_j.style.gap = ("50px")
+    })
+
+    let dropbtn_j = document.getElementById("dropbtn_top_j")
+    dropbtn_j.addEventListener("mouseenter", () => {
+        dropdown_content_j.style.display = ("flex")
+        dropdown_content_j.style.justifyContent = ("center")
+        dropdown_content_j.style.flexFlow = ("row nowrap")
+        dropdown_content_j.style.gap = ("50px")
+    })
+
+
+    let dropdown_content_s = document.getElementById("clumns_s")
+    dropdown_content_s.addEventListener("mouseenter", () => {
+        dropdown_content_s.style.display = ("flex")
+        dropdown_content_s.style.justifyContent = ("center")
+        dropdown_content_s.style.flexFlow = ("row nowrap")
+        dropdown_content_s.style.gap = ("50px")
+    })
+
+    let dropbtn_s = document.getElementById("dropbtn_top_s")
+    dropbtn_s.addEventListener("mouseenter", () => {
+        dropdown_content_s.style.display = ("flex")
+        dropdown_content_s.style.justifyContent = ("center")
+        dropdown_content_s.style.flexFlow = ("row nowrap")
+        dropdown_content_s.style.gap = ("50px")
+    })
+
 })
 
-let dropbtn_n = document.getElementById("dropbtn_top_n")
-dropbtn_n.addEventListener("mouseenter", () => {
-    dropdown_content_n.style.display = ("flex")
-    dropdown_content_n.style.justifyContent = ("center")
-    dropdown_content_n.style.flexFlow = ("row nowrap")
-    dropdown_content_n.style.gap = ("50px")
+
+
+let awroo_1 = document.getElementById("awroo_down_1")
+let awroo_2 = document.getElementById("awroo_down_2")
+let awroo_3 = document.getElementById("awroo_down_3")
+let awroo_4 = document.getElementById("awroo_down_4")
+let title_part_1 = document.getElementById("title_part_1")
+let title_part_2 = document.getElementById("title_part_2")
+let title_part_3 = document.getElementById("title_part_3")
+let title_part_4 = document.getElementById("title_part_4")
+let cooint_1 = 0
+let cooint_2 = 0
+let cooint_3 = 0
+let cooint_4 = 0
+
+window.addEventListener("resize", () => {
+
+    if (window.innerWidth <= 960) {
+        awroo_1.style.display = ("unset")
+        awroo_2.style.display = ("unset")
+        awroo_3.style.display = ("unset")
+        awroo_4.style.display = ("unset")
+    } else {
+        awroo_1.style.display = ("none")
+        awroo_2.style.display = ("none")
+        awroo_3.style.display = ("none")
+        awroo_4.style.display = ("none")
+    }
+
+})
+
+awroo_1.addEventListener("click", () => {
+
+    cooint_1++
+
+
+    if (cooint_1 === 1) {
+        awroo_1.style.transform = ("rotate(180deg)")
+        title_part_1.style.height = ("fit-content")
+        title_part_1.style.gap = ("12px")
+    } else {
+
+        awroo_1.style.transform = ("rotate(-0deg)")
+        title_part_1.style.height = ("50px")
+        title_part_1.style.gap = ("45px")
+        cooint_1 -= 2
+
+
+    }
+})
+awroo_2.addEventListener("click", () => {
+
+    cooint_2++
+
+
+    if (cooint_2 === 1) {
+        awroo_2.style.transform = ("rotate(180deg)")
+        title_part_2.style.height = ("fit-content")
+        title_part_2.style.gap = ("12px")
+
+    } else {
+
+        awroo_2.style.transform = ("rotate(-0deg)")
+        title_part_2.style.height = ("50px")
+        title_part_2.style.gap = ("45px")
+        cooint_2 -= 2
+
+
+    }
+})
+awroo_3.addEventListener("click", () => {
+
+    cooint_3++
+
+
+    if (cooint_3 === 1) {
+        awroo_3.style.transform = ("rotate(180deg)")
+        title_part_3.style.height = ("fit-content")
+        title_part_3.style.gap = ("12px")
+
+    } else {
+
+        awroo_3.style.transform = ("rotate(-0deg)")
+        title_part_3.style.height = ("50px")
+        title_part_3.style.gap = ("45px")
+        cooint_3 -= 2
+
+
+    }
+})
+awroo_4.addEventListener("click", () => {
+
+    cooint_4++
+
+
+    if (cooint_4 === 1) {
+        awroo_4.style.transform = ("rotate(180deg)")
+        title_part_4.style.height = ("fit-content")
+        title_part_4.style.gap = ("12px")
+
+    } else {
+
+        awroo_4.style.transform = ("rotate(-0deg)")
+        title_part_4.style.height = ("50px")
+        title_part_4.style.gap = ("45px")
+        cooint_4 -= 2
+
+
+    }
+
 })
 
 
 
 
-
-
-let dropdown_content_m = document.getElementById("clumns_m")
-dropdown_content_m.addEventListener("mouseenter", () => {
-    dropdown_content_m.style.display = ("flex")
-    dropdown_content_m.style.justifyContent = ("center")
-    dropdown_content_m.style.flexFlow = ("row nowrap")
-    dropdown_content_m.style.gap = ("50px")
-})
-
-let dropbtn_m = document.getElementById("dropbtn_top_m")
-dropbtn_m.addEventListener("mouseenter", () => {
-    dropdown_content_m.style.display = ("flex")
-    dropdown_content_m.style.justifyContent = ("center")
-    dropdown_content_m.style.flexFlow = ("row nowrap")
-    dropdown_content_m.style.gap = ("50px")
-})
-
-
-
-
-
-
-let dropdown_content_w = document.getElementById("clumns_w")
-dropdown_content_w.addEventListener("mouseenter", () => {
-    dropdown_content_w.style.display = ("flex")
-    dropdown_content_w.style.justifyContent = ("center")
-    dropdown_content_w.style.flexFlow = ("row nowrap")
-    dropdown_content_w.style.gap = ("50px")
-})
-
-let dropbtn_w = document.getElementById("dropbtn_top_w")
-dropbtn_w.addEventListener("mouseenter", () => {
-    dropdown_content_w.style.display = ("flex")
-    dropdown_content_w.style.justifyContent = ("center")
-    dropdown_content_w.style.flexFlow = ("row nowrap")
-    dropdown_content_w.style.gap = ("50px")
-})
-
-
-
-
-
-
-let dropdown_content_k = document.getElementById("clumns_k")
-dropdown_content_k.addEventListener("mouseenter", () => {
-    dropdown_content_k.style.display = ("flex")
-    dropdown_content_k.style.justifyContent = ("center")
-    dropdown_content_k.style.flexFlow = ("row nowrap")
-    dropdown_content_k.style.gap = ("50px")
-})
-
-let dropbtn_k = document.getElementById("dropbtn_top_k")
-dropbtn_k.addEventListener("mouseenter", () => {
-    dropdown_content_k.style.display = ("flex")
-    dropdown_content_k.style.justifyContent = ("center")
-    dropdown_content_k.style.flexFlow = ("row nowrap")
-    dropdown_content_k.style.gap = ("50px")
-})
-
-
-
-
-
-
-let dropdown_content_j = document.getElementById("clumns_j")
-dropdown_content_j.addEventListener("mouseenter", () => {
-    dropdown_content_j.style.display = ("flex")
-    dropdown_content_j.style.justifyContent = ("center")
-    dropdown_content_j.style.flexFlow = ("row nowrap")
-    dropdown_content_j.style.gap = ("50px")
-})
-
-let dropbtn_j = document.getElementById("dropbtn_top_j")
-dropbtn_j.addEventListener("mouseenter", () => {
-    dropdown_content_j.style.display = ("flex")
-    dropdown_content_j.style.justifyContent = ("center")
-    dropdown_content_j.style.flexFlow = ("row nowrap")
-    dropdown_content_j.style.gap = ("50px")
-})
-
-
-
-
-
-
-
-let dropdown_content_s = document.getElementById("clumns_s")
-dropdown_content_s.addEventListener("mouseenter", () => {
-    dropdown_content_s.style.display = ("flex")
-    dropdown_content_s.style.justifyContent = ("center")
-    dropdown_content_s.style.flexFlow = ("row nowrap")
-    dropdown_content_s.style.gap = ("50px")
-})
-
-let dropbtn_s = document.getElementById("dropbtn_top_s")
-dropbtn_s.addEventListener("mouseenter", () => {
-    dropdown_content_s.style.display = ("flex")
-    dropdown_content_s.style.justifyContent = ("center")
-    dropdown_content_s.style.flexFlow = ("row nowrap")
-    dropdown_content_s.style.gap = ("50px")
-})
 
 
 
@@ -180,7 +294,11 @@ let dropdown_content_m_m = document.getElementById("dropdown-content_m")
 let dropdown_content_w_w = document.getElementById("dropdown-content_w")
 let dropdown_content_j_j = document.getElementById("dropdown-content_j")
 window.addEventListener('scroll', function () {
+
+
+
     let scrollTop = document.documentElement.scrollTop;
+
     if (scrollTop > lastScrollTop) {
         // Scrolling down
         topMidle.style.top = '-200px'; // Adjust this value as needed
@@ -208,6 +326,7 @@ window.addEventListener('scroll', function () {
         dropdown_content_m_m.style.top = ("50px")
         dropdown_content_w_w.style.top = ("50px")
         dropdown_content_j_j.style.top = ("50px")
+
     }
     lastScrollTop = scrollTop;
 });
@@ -263,7 +382,7 @@ axios.get('http://localhost:3000/four_picture')
                 picure_4_dad.style.width = ("50%")
                 console.log("ali kore");
 
-            } else if ( window.innerWidth <= 960) {
+            } else if (window.innerWidth <= 960) {
 
                 dropdown_content_s_s.style.top = ("50px")
                 dropdown_content_n_n.style.top = ("50px")
@@ -271,6 +390,8 @@ axios.get('http://localhost:3000/four_picture')
                 dropdown_content_m_m.style.top = ("50px")
                 dropdown_content_w_w.style.top = ("50px")
                 dropdown_content_j_j.style.top = ("50px")
+
+
             }
 
 
